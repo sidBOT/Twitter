@@ -5,14 +5,14 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- !private "UInt32"
-- "generateState"
-- !private "..<"
-- "String"
-- !private "arc4random_uniform"
-- "Int"
-- !private "StringLiteralType"
 - !private "+="
+- "String"
+- !private "UInt32"
+- !private "..<"
+- "generateState"
+- "Int"
+- !private "arc4random_uniform"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "index"]

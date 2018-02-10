@@ -10,26 +10,26 @@ provides-member:
 - ["C10OAuthSwift18OAuthSwiftResponse", "jsonObject"]
 - ["C10OAuthSwift18OAuthSwiftResponse", "propertyList"]
 provides-dynamic-lookup:
-- "propertyList"
-- "string"
+- "request"
 - "data"
 - "jsonObject"
-- "request"
+- "string"
 - "response"
+- "propertyList"
 depends-top-level:
+- "Array"
+- "UnsafeMutablePointer"
 - "AssignmentPrecedence"
-- !private "OAuthSwiftDataEncoding"
-- "String"
+- "HTTPURLResponse"
+- "JSONSerialization"
+- "PropertyListSerialization"
 - "Data"
 - "URLRequest"
-- "Array"
-- "HTTPURLResponse"
-- "OAuthSwiftResponse"
-- "JSONSerialization"
 - "NSObject"
-- "UnsafeMutablePointer"
+- "OAuthSwiftResponse"
+- "String"
+- !private "OAuthSwiftDataEncoding"
 - !private "StringLiteralType"
-- "PropertyListSerialization"
 depends-member:
 - !private ["Ps9AnyObject", "JSONSerialization"]
 - !private ["Ps9AnyObject", "OAuthSwiftDataEncoding"]

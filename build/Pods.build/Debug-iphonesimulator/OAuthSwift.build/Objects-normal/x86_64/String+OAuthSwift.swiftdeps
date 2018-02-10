@@ -16,20 +16,20 @@ provides-member:
 - ["VE10FoundationSS8Encoding", "charset"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Scanner"
+- !private "Dictionary"
 - !private "CharacterSet"
 - "CastingPrecedence"
+- !private "??"
 - !private "AssignmentPrecedence"
 - !private "CFStringConvertNSStringEncodingToEncoding"
 - "String"
-- !private "Dictionary"
-- !private "!"
+- !private "NSString"
+- !private "Scanner"
+- !private "CFStringConvertEncodingToIANACharSetName"
 - "OAuthSwift"
 - !private "UnicodeScalarType"
-- !private "??"
-- !private "CFStringConvertEncodingToIANACharSetName"
-- !private "NSString"
 - !private "StringLiteralType"
+- !private "!"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - ["Ps9AnyObject", "Headers"]

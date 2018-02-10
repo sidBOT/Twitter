@@ -7,17 +7,17 @@ provides-member:
 - ["C10OAuthSwift4HMAC", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "SHA1"
-- "AssignmentPrecedence"
-- "Data"
-- "UInt8"
-- !private "+"
-- !private "^"
-- "HMAC"
 - !private "<"
-- !private "UnsafePointer"
+- !private "+"
 - !private ">"
 - !private "-"
+- "HMAC"
+- "AssignmentPrecedence"
+- !private "UnsafePointer"
+- "UInt8"
+- !private "SHA1"
+- "Data"
+- !private "^"
 depends-member:
 - !private ["Ps9AnyObject", "Data"]
 - !private ["Ps9AnyObject", "SHA1"]

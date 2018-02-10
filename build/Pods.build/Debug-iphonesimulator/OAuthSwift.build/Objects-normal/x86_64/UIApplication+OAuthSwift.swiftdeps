@@ -12,11 +12,11 @@ provides-dynamic-lookup:
 - "topViewController"
 - "topViewController"
 depends-top-level:
-- "CastingPrecedence"
-- "UIViewController"
-- "UIApplication"
-- !private "UITabBarController"
 - !private "UINavigationController"
+- "CastingPrecedence"
+- "UIApplication"
+- "UIViewController"
+- !private "UITabBarController"
 depends-member:
 - !private ["Ps9AnyObject", "UIApplication"]
 - !private ["Ps9AnyObject", "UIViewController"]

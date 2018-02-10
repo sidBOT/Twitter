@@ -10,6 +10,7 @@ import UIKit
 
 class TimelineViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+
     var tweets: [Tweet] = []
     var refreshControl: UIRefreshControl!
     
@@ -66,6 +67,7 @@ class TimelineViewController: UIViewController, UITableViewDelegate, UITableView
     @IBAction func didTapLogout(_ sender: Any) {
         APIManager.shared.logout()
     }
+    
     
     
     /*

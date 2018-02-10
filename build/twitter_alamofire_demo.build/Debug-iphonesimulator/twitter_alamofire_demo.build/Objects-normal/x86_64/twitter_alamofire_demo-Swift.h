@@ -170,12 +170,20 @@ SWIFT_CLASS("_TtC22twitter_alamofire_demo22TimelineViewController")
 @end
 
 @class UILabel;
+@class UIButton;
 
 SWIFT_CLASS("_TtC22twitter_alamofire_demo9TweetCell")
 @interface TweetCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified likeCountLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified retweetCountLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified likeButton;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tweetTextLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified retweetButton;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (IBAction)likeButtonAction:(id _Nonnull)sender;
+- (IBAction)retweetButtonAction:(id _Nonnull)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

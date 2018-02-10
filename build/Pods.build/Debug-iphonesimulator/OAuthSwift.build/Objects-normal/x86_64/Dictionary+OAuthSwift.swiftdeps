@@ -13,16 +13,16 @@ provides-member:
 - ["Vs10Dictionary", "map"]
 provides-dynamic-lookup:
 depends-top-level:
-- "+="
+- "Hashable"
+- !private "UnicodeScalarType"
 - "CastingPrecedence"
 - "AssignmentPrecedence"
 - "+"
-- "Hashable"
-- !private "UnicodeScalarType"
-- "Dictionary"
+- "+="
+- "Bool"
 - !private "StringLiteralType"
 - "String"
-- "Bool"
+- "Dictionary"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "urlEncodedString"]

@@ -7,19 +7,19 @@ provides-member:
 - ["Ps10Collection", "toUInt32Array"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Collection"
 - "UInt8"
+- "TernaryPrecedence"
+- "Collection"
 - !private "stride"
 - "UInt32"
 - !private ">"
-- "Array"
 - !private "StringLiteralType"
 - !private "|="
+- "Array"
 - !private "<<"
 - !private "MemoryLayout"
-- "Int"
 - !private "assert"
-- "TernaryPrecedence"
+- "Int"
 depends-member:
 - !private ["Sa", "Index"]
 - !private ["Sa", "IndexDistance"]

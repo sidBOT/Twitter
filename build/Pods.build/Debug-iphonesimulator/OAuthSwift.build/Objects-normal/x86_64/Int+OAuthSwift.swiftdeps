@@ -6,18 +6,18 @@ provides-member:
 - ["Si", "bytes"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "AssignmentPrecedence"
-- "Int"
-- !private "UnsafeMutablePointer"
-- !private "OpaquePointer"
-- !private "-"
-- "UInt8"
 - !private "..<"
 - !private "??"
-- !private "+"
-- !private "MemoryLayout"
+- "UInt8"
+- !private "-"
 - !private "min"
+- !private "AssignmentPrecedence"
+- !private "OpaquePointer"
+- !private "MemoryLayout"
+- !private "UnsafeMutablePointer"
+- !private "+"
 - !private "arrayOfBytes"
+- "Int"
 depends-member:
 - !private ["Sa", "Index"]
 - !private ["Sa", "Iterator"]

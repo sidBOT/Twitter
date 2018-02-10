@@ -18,29 +18,29 @@ provides-member:
 - ["C10OAuthSwift16OAuthSwiftClient", "delete"]
 - ["C10OAuthSwift16OAuthSwiftClient", "patch"]
 provides-dynamic-lookup:
-- "get"
 - "put"
-- "delete"
 - "objc_authorize"
 - "objc_authorize"
-- "post"
 - "patch"
+- "delete"
+- "post"
+- "get"
 depends-top-level:
-- "Data"
-- "OAuthSwiftRequestHandle"
-- !private "OAuthSwiftError"
 - "Bool"
+- "OAuthSwiftRequestHandle"
 - !private "URL"
-- "String"
-- "OAuth1Swift"
-- "Error"
+- "Data"
 - "OAuthSwiftClient"
+- !private "OAuthSwiftError"
+- "String"
 - "OAuthSwiftHTTPRequest"
+- "Void"
 - "Dictionary"
 - "BooleanLiteralType"
-- "OAuth2Swift"
-- "Void"
+- "OAuth1Swift"
 - "OAuthSwift"
+- "Error"
+- "OAuth2Swift"
 depends-member:
 - ["Ps9AnyObject", "Headers"]
 - ["Ps9AnyObject", "Method"]

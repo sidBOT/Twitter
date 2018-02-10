@@ -7,16 +7,16 @@ provides-member:
 - ["C22twitter_alamofire_demo19LoginViewController", ""]
 provides-dynamic-lookup:
 - "viewDidLoad"
-- "didReceiveMemoryWarning"
-- "viewDidAppear"
 - "didTapLogin"
+- "viewDidAppear"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "print"
 - "UIViewController"
 - !private "StringLiteralType"
-- "Bool"
 - "LoginViewController"
 - !private "APIManager"
+- "Bool"
+- !private "print"
 depends-member:
 - !private ["C22twitter_alamofire_demo10APIManager", "login"]
 - !private ["C22twitter_alamofire_demo10APIManager", "shared"]

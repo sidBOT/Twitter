@@ -7,13 +7,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "=="
-- "String"
-- "TernaryPrecedence"
 - !private "+"
-- "URL"
-- !private "StringLiteralType"
+- "TernaryPrecedence"
 - !private "!="
 - !private "UnicodeScalarType"
+- "URL"
+- "String"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "dropLast"]
 - !private ["Ps9AnyObject", "hasSuffix"]
