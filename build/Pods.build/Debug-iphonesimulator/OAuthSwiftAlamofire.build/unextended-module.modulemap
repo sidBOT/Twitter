@@ -1,0 +1,10 @@
+framework module OAuthSwiftAlamofire {
+  umbrella header "OAuthSwiftAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module OAuthSwiftAlamofire.__Swift {
+    exclude header "OAuthSwiftAlamofire-Swift.h"
+}

@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -20,23 +20,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "KeychainAccess-Swift.h",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
         },
         {
           'type': 'file',
@@ -47,23 +47,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphoneos/KeychainAccess.build/module.modulemap"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphonesimulator/KeychainAccess.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwift/OAuthSwift.framework/Headers",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "OAuthSwift-Swift.h",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwift/OAuthSwift.framework/Headers/OAuthSwift-Swift.h"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Headers/OAuthSwift-Swift.h"
         },
         {
           'type': 'file',
@@ -74,23 +74,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwift/OAuthSwift.framework/Modules",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphoneos/OAuthSwift.build/module.modulemap"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphonesimulator/OAuthSwift.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "OAuthSwiftAlamofire-Swift.h",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers/OAuthSwiftAlamofire-Swift.h"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers/OAuthSwiftAlamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -101,18 +101,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Modules",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphoneos/OAuthSwiftAlamofire.build/module.modulemap"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphonesimulator/OAuthSwiftAlamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Pods_twitter_alamofire_demo.framework/Headers",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Pods_twitter_alamofire_demo.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -122,18 +122,18 @@
         {
           'type': 'file',
           'name': "Pods_twitter_alamofire_demo-Swift.h",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Pods_twitter_alamofire_demo.framework/Headers/Pods_twitter_alamofire_demo-Swift.h"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Pods_twitter_alamofire_demo.framework/Headers/Pods_twitter_alamofire_demo-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Pods_twitter_alamofire_demo.framework/Modules",
+      'name': "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Pods_twitter_alamofire_demo.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphoneos/Pods-twitter_alamofire_demo.build/module.modulemap"
+          'external-contents': "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphonesimulator/Pods-twitter_alamofire_demo.build/module.modulemap"
         }
       ]
     }

@@ -1,0 +1,566 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C22twitter_alamofire_demo11AppDelegate"
+provides-member:
+- ["C22twitter_alamofire_demo11AppDelegate", ""]
+provides-dynamic-lookup:
+- "applicationWillResignActive"
+- "window"
+- "applicationWillTerminate"
+- "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
+- "applicationDidEnterBackground"
+- "application"
+- "application"
+depends-top-level:
+- "UIApplicationOpenURLOptionsKey"
+- "UIResponder"
+- !private "OperationQueue"
+- "UIApplication"
+- !private "APIManager"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- !private "UIStoryboard"
+- "UIApplicationDelegate"
+- "URL"
+- !private "Notification"
+- !private "NotificationCenter"
+- "UIApplicationLaunchOptionsKey"
+- "AppDelegate"
+- "UIWindow"
+- !private "print"
+- "Bool"
+- !private "AssignmentPrecedence"
+- "Dictionary"
+depends-member:
+- !private ["C22twitter_alamofire_demo10APIManager", "handle"]
+- !private ["C22twitter_alamofire_demo10APIManager", "shared"]
+- !private ["Ps9AnyObject", "APIManager"]
+- !private ["Ps9AnyObject", "Notification"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "OperationQueue"]
+- !private ["Ps9AnyObject", "UIStoryboard"]
+- !private ["Ps9AnyObject", "addObserver"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "handle"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewController"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- !private ["C22twitter_alamofire_demo11AppDelegate", "APIManager"]
+- ["C22twitter_alamofire_demo11AppDelegate", "Bool"]
+- !private ["C22twitter_alamofire_demo11AppDelegate", "Notification"]
+- !private ["C22twitter_alamofire_demo11AppDelegate", "NotificationCenter"]
+- !private ["C22twitter_alamofire_demo11AppDelegate", "OperationQueue"]
+- ["C22twitter_alamofire_demo11AppDelegate", "UIApplication"]
+- ["C22twitter_alamofire_demo11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C22twitter_alamofire_demo11AppDelegate", "UIApplicationOpenURLOptionsKey"]
+- !private ["C22twitter_alamofire_demo11AppDelegate", "UIStoryboard"]
+- ["C22twitter_alamofire_demo11AppDelegate", "UIWindow"]
+- ["C22twitter_alamofire_demo11AppDelegate", "URL"]
+- ["C22twitter_alamofire_demo11AppDelegate", "application"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationDidBecomeActive"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationDidEnterBackground"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationDidFinishLaunching"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationSignificantTimeChange"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationWillEnterForeground"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationWillResignActive"]
+- ["C22twitter_alamofire_demo11AppDelegate", "applicationWillTerminate"]
+- ["C22twitter_alamofire_demo11AppDelegate", "deinit"]
+- ["C22twitter_alamofire_demo11AppDelegate", "init"]
+- !private ["C22twitter_alamofire_demo11AppDelegate", "print"]
+- ["C22twitter_alamofire_demo11AppDelegate", "window"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["Ps7CVarArg", "APIManager"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Notification"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "OperationQueue"]
+- !private ["Ps7CVarArg", "UIStoryboard"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "addObserver"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateViewController"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "APIManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "Notification"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "OperationQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Name"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "APIManager"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "Notification"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "OperationQueue"]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewController"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Ps9Equatable", "APIManager"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "Notification"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "OperationQueue"]
+- !private ["Ps9Equatable", "UIStoryboard"]
+- !private ["Ps9Equatable", "addObserver"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewController"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rootViewController"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "APIManager"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "Notification"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "OperationQueue"]
+- !private ["Ps8Hashable", "UIStoryboard"]
+- !private ["Ps8Hashable", "addObserver"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewController"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rootViewController"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "APIManager"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Notification"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- !private ["CSo8NSObject", "OperationQueue"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- ["CSo8NSObject", "UIApplicationOpenURLOptionsKey"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "addObserver"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewController"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "rootViewController"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "APIManager"]
+- !private ["PSo16NSObjectProtocol", "Notification"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "OperationQueue"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- ["PSo16NSObjectProtocol", "deinit"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewController"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- !private ["VCSo14NSNotification4Name", "init"]
+- !private ["V10Foundation12Notification", "Name"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- ["CSo14OperationQueue", "deinit"]
+- !private ["CSo14OperationQueue", "main"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "Name"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["C9Alamofire14SessionManager", "handle"]
+- !private ["C9Alamofire14SessionManager", "shared"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIApplicationDelegate", "APIManager"]
+- !private ["PSo21UIApplicationDelegate", "Notification"]
+- !private ["PSo21UIApplicationDelegate", "NotificationCenter"]
+- !private ["PSo21UIApplicationDelegate", "OperationQueue"]
+- !private ["PSo21UIApplicationDelegate", "UIStoryboard"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "print"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- !private ["CSo11UIResponder", "APIManager"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "Notification"]
+- !private ["CSo11UIResponder", "NotificationCenter"]
+- !private ["CSo11UIResponder", "OperationQueue"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- ["CSo11UIResponder", "UIApplicationOpenURLOptionsKey"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "URL"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "deinit"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "APIManager"]
+- !private ["PSo30UIResponderStandardEditActions", "Notification"]
+- !private ["PSo30UIResponderStandardEditActions", "NotificationCenter"]
+- !private ["PSo30UIResponderStandardEditActions", "OperationQueue"]
+- !private ["PSo30UIResponderStandardEditActions", "UIStoryboard"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIStoryboard", "deinit"]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "deinit"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "APIManager"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "Notification"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "OperationQueue"]
+- !private ["Ps9_Hashable", "UIStoryboard"]
+- !private ["Ps9_Hashable", "addObserver"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateViewController"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Name"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- !private "C22twitter_alamofire_demo10APIManager"
+- "Ps9AnyObject"
+- "C22twitter_alamofire_demo11AppDelegate"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- !private "V10Foundation12Notification"
+- "CSo18NotificationCenter"
+- "CSo14OperationQueue"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "C9Alamofire14SessionManager"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIStoryboard"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- "V10Foundation3URL"
+- !private "P9Alamofire14URLConvertible"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Modules/OAuthSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Headers/OAuthSwift-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Headers/OAuthSwift-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Modules/OAuthSwiftAlamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers/OAuthSwiftAlamofire-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers/OAuthSwiftAlamofire-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/x86_64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+interface-hash: "d068c65d6f4c0d7fd41f6b0444de49da"

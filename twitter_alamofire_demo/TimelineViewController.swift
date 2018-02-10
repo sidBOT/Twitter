@@ -11,12 +11,17 @@ import UIKit
 class TimelineViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var tweets: [Tweet] = []
+    var refreshControl: UIRefreshControl!
     
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(TimelineViewController.didPullToRefresh(_:)), for: .valueChanged)
+        
+        tableView.insertSubview(refreshControl, at: 0)
         tableView.dataSource = self
         tableView.delegate = self
         
@@ -31,6 +36,9 @@ class TimelineViewController: UIViewController, UITableViewDelegate, UITableView
                 print("Error getting home timeline: " + error.localizedDescription)
             }
         }
+    }
+    @objc func didPullToRefresh(_ refreshControl: UIRefreshControl){
+        self.viewDidLoad()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

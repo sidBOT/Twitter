@@ -1,0 +1,686 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIManager"
+- "JSONError"
+provides-nominal:
+- "C22twitter_alamofire_demo10APIManager"
+- "O22twitter_alamofire_demo9JSONError"
+provides-member:
+- ["C22twitter_alamofire_demo10APIManager", ""]
+- ["O22twitter_alamofire_demo9JSONError", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Tweet"
+- !private "NSKeyedUnarchiver"
+- !private "AssignmentPrecedence"
+- "StringLiteralType"
+- !private "print"
+- "Dictionary"
+- "String"
+- !private "NSKeyedArchiver"
+- !private "NSNotification"
+- "Error"
+- !private "Data"
+- !private "NSLocalizedDescriptionKey"
+- "OAuth1Swift"
+- !private "OAuthSwiftCredential"
+- "JSONError"
+- !private "NotificationCenter"
+- !private "Keychain"
+- "User"
+- !private "UserDefaults"
+- "SessionManager"
+- "URL"
+- "APIManager"
+- "CastingPrecedence"
+- !private "NSError"
+depends-member:
+- ["C22twitter_alamofire_demo10APIManager", "APIManager"]
+- !private ["C22twitter_alamofire_demo10APIManager", "Data"]
+- ["C22twitter_alamofire_demo10APIManager", "Error"]
+- !private ["C22twitter_alamofire_demo10APIManager", "JSONError"]
+- !private ["C22twitter_alamofire_demo10APIManager", "Keychain"]
+- !private ["C22twitter_alamofire_demo10APIManager", "NSError"]
+- !private ["C22twitter_alamofire_demo10APIManager", "NSKeyedArchiver"]
+- !private ["C22twitter_alamofire_demo10APIManager", "NSKeyedUnarchiver"]
+- !private ["C22twitter_alamofire_demo10APIManager", "NSLocalizedDescriptionKey"]
+- !private ["C22twitter_alamofire_demo10APIManager", "NSNotification"]
+- !private ["C22twitter_alamofire_demo10APIManager", "NotificationCenter"]
+- ["C22twitter_alamofire_demo10APIManager", "OAuth1Swift"]
+- !private ["C22twitter_alamofire_demo10APIManager", "OAuthSwiftCredential"]
+- !private ["C22twitter_alamofire_demo10APIManager", "String"]
+- ["C22twitter_alamofire_demo10APIManager", "Tweet"]
+- ["C22twitter_alamofire_demo10APIManager", "URL"]
+- ["C22twitter_alamofire_demo10APIManager", "User"]
+- !private ["C22twitter_alamofire_demo10APIManager", "UserDefaults"]
+- ["C22twitter_alamofire_demo10APIManager", "accessTokenURL"]
+- !private ["C22twitter_alamofire_demo10APIManager", "adapter"]
+- ["C22twitter_alamofire_demo10APIManager", "authorizeURL"]
+- ["C22twitter_alamofire_demo10APIManager", "callbackURLString"]
+- !private ["C22twitter_alamofire_demo10APIManager", "clearCredentials"]
+- ["C22twitter_alamofire_demo10APIManager", "consumerKey"]
+- ["C22twitter_alamofire_demo10APIManager", "consumerSecret"]
+- ["C22twitter_alamofire_demo10APIManager", "deinit"]
+- ["C22twitter_alamofire_demo10APIManager", "getCurrentAccount"]
+- ["C22twitter_alamofire_demo10APIManager", "getHomeTimeLine"]
+- ["C22twitter_alamofire_demo10APIManager", "handle"]
+- ["C22twitter_alamofire_demo10APIManager", "init"]
+- ["C22twitter_alamofire_demo10APIManager", "login"]
+- ["C22twitter_alamofire_demo10APIManager", "logout"]
+- ["C22twitter_alamofire_demo10APIManager", "oauthManager"]
+- !private ["C22twitter_alamofire_demo10APIManager", "print"]
+- !private ["C22twitter_alamofire_demo10APIManager", "request"]
+- ["C22twitter_alamofire_demo10APIManager", "requestTokenURL"]
+- !private ["C22twitter_alamofire_demo10APIManager", "retrieveCredentials"]
+- !private ["C22twitter_alamofire_demo10APIManager", "save"]
+- ["C22twitter_alamofire_demo10APIManager", "shared"]
+- ["Ps9AnyObject", "APIManager"]
+- !private ["Ps9AnyObject", "JSONError"]
+- !private ["Ps9AnyObject", "Keychain"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "NSKeyedArchiver"]
+- !private ["Ps9AnyObject", "NSKeyedUnarchiver"]
+- !private ["Ps9AnyObject", "NSLocalizedDescriptionKey"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "OAuth1Swift"]
+- !private ["Ps9AnyObject", "Tweet"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "User"]
+- !private ["Ps9AnyObject", "UserDefaults"]
+- ["Ps9AnyObject", "accessTokenURL"]
+- !private ["Ps9AnyObject", "adapter"]
+- !private ["Ps9AnyObject", "archivedData"]
+- !private ["Ps9AnyObject", "authorize"]
+- ["Ps9AnyObject", "authorizeURL"]
+- ["Ps9AnyObject", "callbackURLString"]
+- ["Ps9AnyObject", "clearCredentials"]
+- !private ["Ps9AnyObject", "client"]
+- ["Ps9AnyObject", "consumerKey"]
+- ["Ps9AnyObject", "consumerSecret"]
+- !private ["Ps9AnyObject", "credential"]
+- !private ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "getCurrentAccount"]
+- ["Ps9AnyObject", "getHomeTimeLine"]
+- ["Ps9AnyObject", "handle"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "login"]
+- ["Ps9AnyObject", "logout"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "oauthManager"]
+- !private ["Ps9AnyObject", "oauthToken"]
+- !private ["Ps9AnyObject", "oauthTokenSecret"]
+- !private ["Ps9AnyObject", "object"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "request"]
+- !private ["Ps9AnyObject", "requestAdapter"]
+- ["Ps9AnyObject", "requestTokenURL"]
+- !private ["Ps9AnyObject", "responseJSON"]
+- ["Ps9AnyObject", "retrieveCredentials"]
+- ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "set"]
+- ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "synchronize"]
+- !private ["Ps9AnyObject", "unarchiveObject"]
+- !private ["Ps9AnyObject", "validate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "flatMap"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "flatMap"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "flatMap"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "archivedData"]
+- !private ["Ps7CVarArg", "authorize"]
+- !private ["Ps7CVarArg", "client"]
+- !private ["Ps7CVarArg", "credential"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "flatMap"]
+- !private ["Ps7CVarArg", "handle"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "oauthToken"]
+- !private ["Ps7CVarArg", "oauthTokenSecret"]
+- !private ["Ps7CVarArg", "object"]
+- !private ["Ps7CVarArg", "post"]
+- !private ["Ps7CVarArg", "requestAdapter"]
+- !private ["Ps7CVarArg", "set"]
+- !private ["Ps7CVarArg", "standard"]
+- !private ["Ps7CVarArg", "synchronize"]
+- !private ["Ps7CVarArg", "unarchiveObject"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "flatMap"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "archivedData"]
+- !private ["Ps28CustomDebugStringConvertible", "authorize"]
+- !private ["Ps28CustomDebugStringConvertible", "client"]
+- !private ["Ps28CustomDebugStringConvertible", "credential"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "failure"]
+- !private ["Ps28CustomDebugStringConvertible", "flatMap"]
+- !private ["Ps28CustomDebugStringConvertible", "handle"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "oauthToken"]
+- !private ["Ps28CustomDebugStringConvertible", "oauthTokenSecret"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAdapter"]
+- !private ["Ps28CustomDebugStringConvertible", "responseJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "result"]
+- !private ["Ps28CustomDebugStringConvertible", "set"]
+- !private ["Ps28CustomDebugStringConvertible", "standard"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "success"]
+- !private ["Ps28CustomDebugStringConvertible", "synchronize"]
+- !private ["Ps28CustomDebugStringConvertible", "unarchiveObject"]
+- !private ["Ps28CustomDebugStringConvertible", "validate"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "flatMap"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "archivedData"]
+- !private ["Ps23CustomStringConvertible", "authorize"]
+- !private ["Ps23CustomStringConvertible", "client"]
+- !private ["Ps23CustomStringConvertible", "credential"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "failure"]
+- !private ["Ps23CustomStringConvertible", "flatMap"]
+- !private ["Ps23CustomStringConvertible", "handle"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "oauthToken"]
+- !private ["Ps23CustomStringConvertible", "oauthTokenSecret"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "requestAdapter"]
+- !private ["Ps23CustomStringConvertible", "responseJSON"]
+- !private ["Ps23CustomStringConvertible", "result"]
+- !private ["Ps23CustomStringConvertible", "set"]
+- !private ["Ps23CustomStringConvertible", "standard"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "success"]
+- !private ["Ps23CustomStringConvertible", "synchronize"]
+- !private ["Ps23CustomStringConvertible", "unarchiveObject"]
+- !private ["Ps23CustomStringConvertible", "validate"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["V10Foundation4Data", "deinit"]
+- ["C9Alamofire11DataRequest", "deinit"]
+- !private ["C9Alamofire11DataRequest", "responseJSON"]
+- !private ["C9Alamofire11DataRequest", "validate"]
+- !private ["V9Alamofire12DataResponse", "deinit"]
+- !private ["V9Alamofire12DataResponse", "result"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "archivedData"]
+- !private ["Ps9Equatable", "authorize"]
+- !private ["Ps9Equatable", "client"]
+- !private ["Ps9Equatable", "credential"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "get"]
+- !private ["Ps9Equatable", "handle"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "oauthToken"]
+- !private ["Ps9Equatable", "oauthTokenSecret"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "requestAdapter"]
+- !private ["Ps9Equatable", "set"]
+- !private ["Ps9Equatable", "standard"]
+- !private ["Ps9Equatable", "synchronize"]
+- !private ["Ps9Equatable", "unarchiveObject"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps5Error", "parsing"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "flatMap"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["O9Alamofire10HTTPMethod", "deinit"]
+- !private ["O9Alamofire10HTTPMethod", "get"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "archivedData"]
+- !private ["Ps8Hashable", "authorize"]
+- !private ["Ps8Hashable", "client"]
+- !private ["Ps8Hashable", "credential"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "get"]
+- !private ["Ps8Hashable", "handle"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "oauthToken"]
+- !private ["Ps8Hashable", "oauthTokenSecret"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "requestAdapter"]
+- !private ["Ps8Hashable", "set"]
+- !private ["Ps8Hashable", "standard"]
+- !private ["Ps8Hashable", "synchronize"]
+- !private ["Ps8Hashable", "unarchiveObject"]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "flatMap"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "flatMap"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["O22twitter_alamofire_demo9JSONError", "String"]
+- ["O22twitter_alamofire_demo9JSONError", "_code"]
+- ["O22twitter_alamofire_demo9JSONError", "_domain"]
+- ["O22twitter_alamofire_demo9JSONError", "_getEmbeddedNSError"]
+- ["O22twitter_alamofire_demo9JSONError", "_userInfo"]
+- ["O22twitter_alamofire_demo9JSONError", "deinit"]
+- ["O22twitter_alamofire_demo9JSONError", "parsing"]
+- !private ["C14KeychainAccess8Keychain", "deinit"]
+- !private ["C14KeychainAccess8Keychain", "init"]
+- !private ["C14KeychainAccess8Keychain", "remove"]
+- !private ["C14KeychainAccess8Keychain", "subscript"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "flatMap"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "flatMap"]
+- !private ["CSo7NSCoder", "archivedData"]
+- !private ["CSo7NSCoder", "unarchiveObject"]
+- !private ["PSo8NSCoding", "Name"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "oauthToken"]
+- !private ["PSo8NSCoding", "oauthTokenSecret"]
+- !private ["PSo9NSCopying", "Name"]
+- ["PSo9NSCopying", "init"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "init"]
+- !private ["CSo15NSKeyedArchiver", "archivedData"]
+- !private ["CSo17NSKeyedUnarchiver", "unarchiveObject"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo14NSNotification", "Name"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "archivedData"]
+- !private ["CSo8NSObject", "authorize"]
+- !private ["CSo8NSObject", "client"]
+- !private ["CSo8NSObject", "credential"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "handle"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "oauthToken"]
+- !private ["CSo8NSObject", "oauthTokenSecret"]
+- !private ["CSo8NSObject", "object"]
+- !private ["CSo8NSObject", "post"]
+- !private ["CSo8NSObject", "requestAdapter"]
+- !private ["CSo8NSObject", "set"]
+- !private ["CSo8NSObject", "standard"]
+- !private ["CSo8NSObject", "synchronize"]
+- !private ["CSo8NSObject", "unarchiveObject"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "archivedData"]
+- !private ["PSo16NSObjectProtocol", "authorize"]
+- !private ["PSo16NSObjectProtocol", "client"]
+- !private ["PSo16NSObjectProtocol", "credential"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "handle"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "oauthToken"]
+- !private ["PSo16NSObjectProtocol", "oauthTokenSecret"]
+- !private ["PSo16NSObjectProtocol", "object"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- !private ["PSo16NSObjectProtocol", "requestAdapter"]
+- !private ["PSo16NSObjectProtocol", "set"]
+- !private ["PSo16NSObjectProtocol", "standard"]
+- !private ["PSo16NSObjectProtocol", "synchronize"]
+- !private ["PSo16NSObjectProtocol", "unarchiveObject"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- !private ["VCSo14NSNotification4Name", "init"]
+- ["Os5Never", "deinit"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- !private ["CSo18NotificationCenter", "post"]
+- !private ["C10OAuthSwift11OAuth1Swift", "authorize"]
+- !private ["C10OAuthSwift11OAuth1Swift", "client"]
+- !private ["C10OAuthSwift11OAuth1Swift", "deinit"]
+- !private ["C10OAuthSwift11OAuth1Swift", "handle"]
+- !private ["C10OAuthSwift11OAuth1Swift", "init"]
+- !private ["C10OAuthSwift11OAuth1Swift", "requestAdapter"]
+- !private ["C10OAuthSwift10OAuthSwift", "authorize"]
+- !private ["C10OAuthSwift10OAuthSwift", "client"]
+- !private ["C10OAuthSwift10OAuthSwift", "handle"]
+- !private ["C10OAuthSwift10OAuthSwift", "requestAdapter"]
+- !private ["C10OAuthSwift16OAuthSwiftClient", "credential"]
+- !private ["C10OAuthSwift20OAuthSwiftCredential", "deinit"]
+- !private ["C10OAuthSwift20OAuthSwiftCredential", "oauthToken"]
+- !private ["C10OAuthSwift20OAuthSwiftCredential", "oauthTokenSecret"]
+- !private ["O10OAuthSwift15OAuthSwiftError", "deinit"]
+- !private ["C19OAuthSwiftAlamofire24OAuthSwiftRequestAdapter", "deinit"]
+- !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "authorize"]
+- !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "client"]
+- !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "handle"]
+- !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "init"]
+- !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "requestAdapter"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "flatMap"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "flatMap"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "flatMap"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "flatMap"]
+- !private ["Ps16RawRepresentable", "get"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["C9Alamofire7Request", "responseJSON"]
+- !private ["C9Alamofire7Request", "validate"]
+- !private ["P9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "deinit"]
+- !private ["O9Alamofire6Result", "failure"]
+- !private ["O9Alamofire6Result", "success"]
+- !private ["O9Alamofire6Result", "value"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "flatMap"]
+- ["C9Alamofire14SessionManager", "APIManager"]
+- !private ["C9Alamofire14SessionManager", "Data"]
+- ["C9Alamofire14SessionManager", "Error"]
+- !private ["C9Alamofire14SessionManager", "JSONError"]
+- !private ["C9Alamofire14SessionManager", "Keychain"]
+- !private ["C9Alamofire14SessionManager", "NSError"]
+- !private ["C9Alamofire14SessionManager", "NSKeyedArchiver"]
+- !private ["C9Alamofire14SessionManager", "NSKeyedUnarchiver"]
+- !private ["C9Alamofire14SessionManager", "NSLocalizedDescriptionKey"]
+- !private ["C9Alamofire14SessionManager", "NSNotification"]
+- !private ["C9Alamofire14SessionManager", "NotificationCenter"]
+- ["C9Alamofire14SessionManager", "OAuth1Swift"]
+- !private ["C9Alamofire14SessionManager", "OAuthSwiftCredential"]
+- !private ["C9Alamofire14SessionManager", "String"]
+- ["C9Alamofire14SessionManager", "Tweet"]
+- ["C9Alamofire14SessionManager", "URL"]
+- ["C9Alamofire14SessionManager", "User"]
+- !private ["C9Alamofire14SessionManager", "UserDefaults"]
+- ["C9Alamofire14SessionManager", "accessTokenURL"]
+- !private ["C9Alamofire14SessionManager", "adapter"]
+- ["C9Alamofire14SessionManager", "authorizeURL"]
+- ["C9Alamofire14SessionManager", "callbackURLString"]
+- ["C9Alamofire14SessionManager", "clearCredentials"]
+- ["C9Alamofire14SessionManager", "consumerKey"]
+- ["C9Alamofire14SessionManager", "consumerSecret"]
+- ["C9Alamofire14SessionManager", "deinit"]
+- ["C9Alamofire14SessionManager", "getCurrentAccount"]
+- ["C9Alamofire14SessionManager", "getHomeTimeLine"]
+- ["C9Alamofire14SessionManager", "handle"]
+- ["C9Alamofire14SessionManager", "init"]
+- ["C9Alamofire14SessionManager", "login"]
+- ["C9Alamofire14SessionManager", "logout"]
+- ["C9Alamofire14SessionManager", "oauthManager"]
+- !private ["C9Alamofire14SessionManager", "print"]
+- !private ["C9Alamofire14SessionManager", "request"]
+- ["C9Alamofire14SessionManager", "requestTokenURL"]
+- ["C9Alamofire14SessionManager", "retrieveCredentials"]
+- ["C9Alamofire14SessionManager", "save"]
+- ["C9Alamofire14SessionManager", "shared"]
+- ["C9Alamofire14SessionManager", ""]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["C22twitter_alamofire_demo5Tweet", "deinit"]
+- !private ["C22twitter_alamofire_demo5Tweet", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- ["P9Alamofire14URLConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["C22twitter_alamofire_demo4User", "deinit"]
+- !private ["C22twitter_alamofire_demo4User", "init"]
+- !private ["C22twitter_alamofire_demo4User", "name"]
+- ["CSo12UserDefaults", "deinit"]
+- !private ["CSo12UserDefaults", "object"]
+- !private ["CSo12UserDefaults", "set"]
+- !private ["CSo12UserDefaults", "standard"]
+- !private ["CSo12UserDefaults", "synchronize"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "flatMap"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "flatMap"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "archivedData"]
+- !private ["Ps9_Hashable", "authorize"]
+- !private ["Ps9_Hashable", "client"]
+- !private ["Ps9_Hashable", "credential"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "get"]
+- !private ["Ps9_Hashable", "handle"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "oauthToken"]
+- !private ["Ps9_Hashable", "oauthTokenSecret"]
+- !private ["Ps9_Hashable", "object"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "requestAdapter"]
+- !private ["Ps9_Hashable", "set"]
+- !private ["Ps9_Hashable", "standard"]
+- !private ["Ps9_Hashable", "synchronize"]
+- !private ["Ps9_Hashable", "unarchiveObject"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "flatMap"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- "C22twitter_alamofire_demo10APIManager"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "C9Alamofire11DataRequest"
+- !private "V9Alamofire12DataResponse"
+- !private "Vs10Dictionary"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "O9Alamofire10HTTPMethod"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- "O22twitter_alamofire_demo9JSONError"
+- !private "C14KeychainAccess8Keychain"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "CSo15NSKeyedArchiver"
+- !private "CSo17NSKeyedUnarchiver"
+- "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- "Os5Never"
+- "CSo18NotificationCenter"
+- !private "C10OAuthSwift11OAuth1Swift"
+- !private "C10OAuthSwift10OAuthSwift"
+- !private "C10OAuthSwift16OAuthSwiftClient"
+- !private "C10OAuthSwift20OAuthSwiftCredential"
+- !private "O10OAuthSwift15OAuthSwiftError"
+- !private "C19OAuthSwiftAlamofire24OAuthSwiftRequestAdapter"
+- !private "P10OAuthSwift23OAuthSwiftRequestHandle"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "C9Alamofire7Request"
+- !private "P9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "Ps8Sequence"
+- "C9Alamofire14SessionManager"
+- "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "C22twitter_alamofire_demo5Tweet"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "V10Foundation3URL"
+- "P9Alamofire14URLConvertible"
+- !private "Sc"
+- !private "C22twitter_alamofire_demo4User"
+- "CSo12UserDefaults"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwift/OAuthSwift.framework/Modules/OAuthSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwift/OAuthSwift.framework/Headers/OAuthSwift-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwift/OAuthSwift.framework/Headers/OAuthSwift-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwift/OAuthSwift.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Modules/OAuthSwiftAlamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers/OAuthSwiftAlamofire-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers/OAuthSwiftAlamofire-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/arm64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+interface-hash: "eb3accbbd3bb3b8495f46094b37bf791"
