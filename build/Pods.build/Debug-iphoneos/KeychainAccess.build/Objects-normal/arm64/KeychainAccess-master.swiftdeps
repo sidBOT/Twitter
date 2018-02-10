@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "a66cf08758805bd6752e89f87a82858a"
+build_time: [571609720, 748911000]
+inputs:
+  "/Users/SiD/Desktop/CS 490/Twitter/Pods/KeychainAccess/Lib/KeychainAccess/Keychain.swift": [566707538, 0]

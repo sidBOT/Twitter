@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "3ffaaf9e0cb3d073f047d2ed5b7e05ca"
+build_time: [571609737, 779655000]
+inputs:
+  "/Users/SiD/Desktop/CS 490/Twitter/Pods/OAuthSwiftAlamofire/Sources/HTTPMethod.swift": [566707538, 0]
+  "/Users/SiD/Desktop/CS 490/Twitter/Pods/OAuthSwiftAlamofire/Sources/OAuthSwiftRequestAdapter.swift": [566707538, 0]

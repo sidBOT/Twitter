@@ -1,0 +1,377 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C10OAuthSwift10OAuthSwift", ""]
+- ["C10OAuthSwift11OAuth1Swift", ""]
+- ["C10OAuthSwift11OAuth2Swift", ""]
+- ["C10OAuthSwift21OAuthSwiftHTTPRequest", ""]
+- ["C10OAuthSwift16OAuthSwiftClient", ""]
+- ["C10OAuthSwift10OAuthSwift", "Obj_FailureHandler"]
+- ["C10OAuthSwift11OAuth1Swift", "objc_authorize"]
+- ["C10OAuthSwift11OAuth2Swift", "objc_authorize"]
+- ["C10OAuthSwift21OAuthSwiftHTTPRequest", "Obj_FailureHandler"]
+- ["C10OAuthSwift16OAuthSwiftClient", "objc_request"]
+- ["C10OAuthSwift16OAuthSwiftClient", "get"]
+- ["C10OAuthSwift16OAuthSwiftClient", "post"]
+- ["C10OAuthSwift16OAuthSwiftClient", "put"]
+- ["C10OAuthSwift16OAuthSwiftClient", "delete"]
+- ["C10OAuthSwift16OAuthSwiftClient", "patch"]
+provides-dynamic-lookup:
+- "post"
+- "put"
+- "patch"
+- "get"
+- "delete"
+- "objc_authorize"
+- "objc_authorize"
+depends-top-level:
+- "Void"
+- "Data"
+- "OAuth1Swift"
+- "Error"
+- "OAuthSwiftRequestHandle"
+- "String"
+- "BooleanLiteralType"
+- !private "URL"
+- !private "OAuthSwiftError"
+- "OAuthSwift"
+- "OAuthSwiftClient"
+- "OAuth2Swift"
+- "Bool"
+- "Dictionary"
+- "OAuthSwiftHTTPRequest"
+depends-member:
+- ["Ps9AnyObject", "Headers"]
+- ["Ps9AnyObject", "Method"]
+- !private ["Ps9AnyObject", "OAuthSwiftError"]
+- ["Ps9AnyObject", "Obj_FailureHandler"]
+- ["Ps9AnyObject", "Parameters"]
+- ["Ps9AnyObject", "SuccessHandler"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "authorize"]
+- ["Ps9AnyObject", "delete"]
+- ["Ps9AnyObject", "get"]
+- ["Ps9AnyObject", "objc_authorize"]
+- ["Ps9AnyObject", "objc_request"]
+- ["Ps9AnyObject", "patch"]
+- ["Ps9AnyObject", "post"]
+- ["Ps9AnyObject", "put"]
+- !private ["Ps9AnyObject", "request"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "Headers"]
+- !private ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "Method"]
+- !private ["Ps7CVarArg", "OAuthSwiftError"]
+- ["Ps7CVarArg", "Obj_FailureHandler"]
+- ["Ps7CVarArg", "Parameters"]
+- ["Ps7CVarArg", "SuccessHandler"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "authorize"]
+- ["Ps7CVarArg", "delete"]
+- ["Ps7CVarArg", "get"]
+- ["Ps7CVarArg", "objc_authorize"]
+- ["Ps7CVarArg", "objc_request"]
+- ["Ps7CVarArg", "patch"]
+- ["Ps7CVarArg", "post"]
+- ["Ps7CVarArg", "put"]
+- !private ["Ps7CVarArg", "request"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- ["Ps28CustomDebugStringConvertible", "Headers"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Method"]
+- !private ["Ps28CustomDebugStringConvertible", "OAuthSwiftError"]
+- ["Ps28CustomDebugStringConvertible", "Obj_FailureHandler"]
+- ["Ps28CustomDebugStringConvertible", "Parameters"]
+- ["Ps28CustomDebugStringConvertible", "SuccessHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "authorize"]
+- ["Ps28CustomDebugStringConvertible", "delete"]
+- ["Ps28CustomDebugStringConvertible", "get"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "objc_authorize"]
+- ["Ps28CustomDebugStringConvertible", "objc_request"]
+- ["Ps28CustomDebugStringConvertible", "patch"]
+- ["Ps28CustomDebugStringConvertible", "post"]
+- ["Ps28CustomDebugStringConvertible", "put"]
+- !private ["Ps28CustomDebugStringConvertible", "request"]
+- !private ["P10Foundation13CustomNSError", "encodingError"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- ["Ps23CustomStringConvertible", "Headers"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "Method"]
+- !private ["Ps23CustomStringConvertible", "OAuthSwiftError"]
+- ["Ps23CustomStringConvertible", "Obj_FailureHandler"]
+- ["Ps23CustomStringConvertible", "Parameters"]
+- ["Ps23CustomStringConvertible", "SuccessHandler"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "authorize"]
+- ["Ps23CustomStringConvertible", "delete"]
+- !private ["Ps23CustomStringConvertible", "encodingError"]
+- ["Ps23CustomStringConvertible", "get"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "objc_authorize"]
+- ["Ps23CustomStringConvertible", "objc_request"]
+- ["Ps23CustomStringConvertible", "patch"]
+- ["Ps23CustomStringConvertible", "post"]
+- ["Ps23CustomStringConvertible", "put"]
+- !private ["Ps23CustomStringConvertible", "request"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Ps9Equatable", "DELETE"]
+- !private ["Ps9Equatable", "GET"]
+- ["Ps9Equatable", "Headers"]
+- ["Ps9Equatable", "Method"]
+- !private ["Ps9Equatable", "OAuthSwiftError"]
+- ["Ps9Equatable", "Obj_FailureHandler"]
+- !private ["Ps9Equatable", "PATCH"]
+- !private ["Ps9Equatable", "POST"]
+- !private ["Ps9Equatable", "PUT"]
+- ["Ps9Equatable", "Parameters"]
+- ["Ps9Equatable", "SuccessHandler"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "authorize"]
+- ["Ps9Equatable", "delete"]
+- ["Ps9Equatable", "get"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "objc_authorize"]
+- ["Ps9Equatable", "objc_request"]
+- ["Ps9Equatable", "patch"]
+- ["Ps9Equatable", "post"]
+- ["Ps9Equatable", "put"]
+- !private ["Ps9Equatable", "request"]
+- !private ["Ps5Error", "encodingError"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps8Hashable", "DELETE"]
+- !private ["Ps8Hashable", "GET"]
+- ["Ps8Hashable", "Headers"]
+- ["Ps8Hashable", "Method"]
+- !private ["Ps8Hashable", "OAuthSwiftError"]
+- ["Ps8Hashable", "Obj_FailureHandler"]
+- !private ["Ps8Hashable", "PATCH"]
+- !private ["Ps8Hashable", "POST"]
+- !private ["Ps8Hashable", "PUT"]
+- ["Ps8Hashable", "Parameters"]
+- ["Ps8Hashable", "SuccessHandler"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "authorize"]
+- ["Ps8Hashable", "delete"]
+- ["Ps8Hashable", "get"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "objc_authorize"]
+- ["Ps8Hashable", "objc_request"]
+- ["Ps8Hashable", "patch"]
+- ["Ps8Hashable", "post"]
+- ["Ps8Hashable", "put"]
+- !private ["Ps8Hashable", "request"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["OC10OAuthSwift21OAuthSwiftHTTPRequest6Method", "DELETE"]
+- !private ["OC10OAuthSwift21OAuthSwiftHTTPRequest6Method", "GET"]
+- !private ["OC10OAuthSwift21OAuthSwiftHTTPRequest6Method", "PATCH"]
+- !private ["OC10OAuthSwift21OAuthSwiftHTTPRequest6Method", "POST"]
+- !private ["OC10OAuthSwift21OAuthSwiftHTTPRequest6Method", "PUT"]
+- ["OC10OAuthSwift21OAuthSwiftHTTPRequest6Method", "deinit"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "Headers"]
+- ["CSo8NSObject", "Method"]
+- ["CSo8NSObject", "OAuthSwift"]
+- !private ["CSo8NSObject", "OAuthSwiftError"]
+- ["CSo8NSObject", "OAuthSwiftHTTPRequest"]
+- ["CSo8NSObject", "OAuthSwiftRequestHandle"]
+- ["CSo8NSObject", "Obj_FailureHandler"]
+- ["CSo8NSObject", "Parameters"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "SuccessHandler"]
+- ["CSo8NSObject", "TokenSuccessHandler"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "authorize"]
+- ["CSo8NSObject", "delete"]
+- ["CSo8NSObject", "get"]
+- ["CSo8NSObject", "objc_authorize"]
+- ["CSo8NSObject", "objc_request"]
+- ["CSo8NSObject", "patch"]
+- ["CSo8NSObject", "post"]
+- ["CSo8NSObject", "put"]
+- !private ["CSo8NSObject", "request"]
+- ["PSo16NSObjectProtocol", "Headers"]
+- ["PSo16NSObjectProtocol", "Method"]
+- !private ["PSo16NSObjectProtocol", "OAuthSwiftError"]
+- ["PSo16NSObjectProtocol", "Obj_FailureHandler"]
+- ["PSo16NSObjectProtocol", "Parameters"]
+- ["PSo16NSObjectProtocol", "SuccessHandler"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "authorize"]
+- ["PSo16NSObjectProtocol", "delete"]
+- ["PSo16NSObjectProtocol", "get"]
+- ["PSo16NSObjectProtocol", "objc_authorize"]
+- ["PSo16NSObjectProtocol", "objc_request"]
+- ["PSo16NSObjectProtocol", "patch"]
+- ["PSo16NSObjectProtocol", "post"]
+- ["PSo16NSObjectProtocol", "put"]
+- !private ["PSo16NSObjectProtocol", "request"]
+- !private ["C10OAuthSwift11OAuth1Swift", "OAuthSwiftError"]
+- ["C10OAuthSwift11OAuth1Swift", "OAuthSwiftRequestHandle"]
+- ["C10OAuthSwift11OAuth1Swift", "Obj_FailureHandler"]
+- ["C10OAuthSwift11OAuth1Swift", "String"]
+- ["C10OAuthSwift11OAuth1Swift", "TokenSuccessHandler"]
+- !private ["C10OAuthSwift11OAuth1Swift", "URL"]
+- !private ["C10OAuthSwift11OAuth1Swift", "authorize"]
+- ["C10OAuthSwift11OAuth1Swift", "deinit"]
+- ["C10OAuthSwift11OAuth1Swift", "objc_authorize"]
+- ["C10OAuthSwift11OAuth2Swift", "OAuthSwift"]
+- !private ["C10OAuthSwift11OAuth2Swift", "OAuthSwiftError"]
+- ["C10OAuthSwift11OAuth2Swift", "OAuthSwiftRequestHandle"]
+- ["C10OAuthSwift11OAuth2Swift", "Obj_FailureHandler"]
+- ["C10OAuthSwift11OAuth2Swift", "Parameters"]
+- ["C10OAuthSwift11OAuth2Swift", "String"]
+- ["C10OAuthSwift11OAuth2Swift", "TokenSuccessHandler"]
+- !private ["C10OAuthSwift11OAuth2Swift", "URL"]
+- !private ["C10OAuthSwift11OAuth2Swift", "authorize"]
+- ["C10OAuthSwift11OAuth2Swift", "deinit"]
+- ["C10OAuthSwift11OAuth2Swift", "objc_authorize"]
+- ["C10OAuthSwift10OAuthSwift", "Error"]
+- ["C10OAuthSwift10OAuthSwift", "Headers"]
+- ["C10OAuthSwift10OAuthSwift", "OAuthSwift"]
+- !private ["C10OAuthSwift10OAuthSwift", "OAuthSwiftError"]
+- ["C10OAuthSwift10OAuthSwift", "OAuthSwiftRequestHandle"]
+- ["C10OAuthSwift10OAuthSwift", "Obj_FailureHandler"]
+- ["C10OAuthSwift10OAuthSwift", "Parameters"]
+- ["C10OAuthSwift10OAuthSwift", "String"]
+- ["C10OAuthSwift10OAuthSwift", "TokenSuccessHandler"]
+- !private ["C10OAuthSwift10OAuthSwift", "URL"]
+- ["C10OAuthSwift10OAuthSwift", "Void"]
+- !private ["C10OAuthSwift10OAuthSwift", "authorize"]
+- ["C10OAuthSwift10OAuthSwift", "objc_authorize"]
+- ["C10OAuthSwift16OAuthSwiftClient", "Bool"]
+- ["C10OAuthSwift16OAuthSwiftClient", "Data"]
+- ["C10OAuthSwift16OAuthSwiftClient", "OAuthSwift"]
+- ["C10OAuthSwift16OAuthSwiftClient", "OAuthSwiftHTTPRequest"]
+- ["C10OAuthSwift16OAuthSwiftClient", "OAuthSwiftRequestHandle"]
+- ["C10OAuthSwift16OAuthSwiftClient", "String"]
+- ["C10OAuthSwift16OAuthSwiftClient", "deinit"]
+- ["C10OAuthSwift16OAuthSwiftClient", "delete"]
+- ["C10OAuthSwift16OAuthSwiftClient", "get"]
+- ["C10OAuthSwift16OAuthSwiftClient", "objc_request"]
+- ["C10OAuthSwift16OAuthSwiftClient", "patch"]
+- ["C10OAuthSwift16OAuthSwiftClient", "post"]
+- ["C10OAuthSwift16OAuthSwiftClient", "put"]
+- !private ["C10OAuthSwift16OAuthSwiftClient", "request"]
+- ["O10OAuthSwift15OAuthSwiftError", "deinit"]
+- !private ["O10OAuthSwift15OAuthSwiftError", "encodingError"]
+- ["C10OAuthSwift21OAuthSwiftHTTPRequest", "Error"]
+- ["C10OAuthSwift21OAuthSwiftHTTPRequest", "Method"]
+- ["C10OAuthSwift21OAuthSwiftHTTPRequest", "Obj_FailureHandler"]
+- ["C10OAuthSwift21OAuthSwiftHTTPRequest", "SuccessHandler"]
+- ["C10OAuthSwift21OAuthSwiftHTTPRequest", "Void"]
+- ["P10OAuthSwift23OAuthSwiftRequestHandle", "Headers"]
+- ["P10OAuthSwift23OAuthSwiftRequestHandle", "Method"]
+- !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "OAuthSwiftError"]
+- ["P10OAuthSwift23OAuthSwiftRequestHandle", "Obj_FailureHandler"]
+- ["P10OAuthSwift23OAuthSwiftRequestHandle", "Parameters"]
+- ["P10OAuthSwift23OAuthSwiftRequestHandle", "SuccessHandler"]
+- !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "URL"]
+- !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "authorize"]
+- ["P10OAuthSwift23OAuthSwiftRequestHandle", "objc_authorize"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "DELETE"]
+- !private ["Ps16RawRepresentable", "GET"]
+- !private ["Ps16RawRepresentable", "PATCH"]
+- !private ["Ps16RawRepresentable", "POST"]
+- !private ["Ps16RawRepresentable", "PUT"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- ["SS", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps9_Hashable", "DELETE"]
+- !private ["Ps9_Hashable", "GET"]
+- ["Ps9_Hashable", "Headers"]
+- ["Ps9_Hashable", "Method"]
+- !private ["Ps9_Hashable", "OAuthSwiftError"]
+- ["Ps9_Hashable", "Obj_FailureHandler"]
+- !private ["Ps9_Hashable", "PATCH"]
+- !private ["Ps9_Hashable", "POST"]
+- !private ["Ps9_Hashable", "PUT"]
+- ["Ps9_Hashable", "Parameters"]
+- ["Ps9_Hashable", "SuccessHandler"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "authorize"]
+- ["Ps9_Hashable", "delete"]
+- ["Ps9_Hashable", "get"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "objc_authorize"]
+- ["Ps9_Hashable", "objc_request"]
+- ["Ps9_Hashable", "patch"]
+- ["Ps9_Hashable", "post"]
+- ["Ps9_Hashable", "put"]
+- !private ["Ps9_Hashable", "request"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "P10Foundation13CustomNSError"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "OC10OAuthSwift21OAuthSwiftHTTPRequest6Method"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C10OAuthSwift11OAuth1Swift"
+- "C10OAuthSwift11OAuth2Swift"
+- "C10OAuthSwift10OAuthSwift"
+- "C10OAuthSwift16OAuthSwiftClient"
+- "O10OAuthSwift15OAuthSwiftError"
+- "C10OAuthSwift21OAuthSwiftHTTPRequest"
+- "P10OAuthSwift23OAuthSwiftRequestHandle"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- "SS"
+- "V10Foundation3URL"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/Pods/Target Support Files/OAuthSwift/OAuthSwift-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphoneos/OAuthSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "b1b9999ba4e2680b83a6f31e04ccb4c3"

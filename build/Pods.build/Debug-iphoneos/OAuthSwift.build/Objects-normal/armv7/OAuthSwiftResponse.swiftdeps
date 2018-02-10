@@ -1,0 +1,319 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthSwiftResponse"
+provides-nominal:
+- "C10OAuthSwift18OAuthSwiftResponse"
+provides-member:
+- ["C10OAuthSwift18OAuthSwiftResponse", ""]
+- ["C10OAuthSwift18OAuthSwiftResponse", "dataString"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "string"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "jsonObject"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "propertyList"]
+provides-dynamic-lookup:
+- "data"
+- "request"
+- "jsonObject"
+- "string"
+- "response"
+- "propertyList"
+depends-top-level:
+- "OAuthSwiftResponse"
+- "HTTPURLResponse"
+- "Data"
+- "PropertyListSerialization"
+- "AssignmentPrecedence"
+- "Array"
+- "JSONSerialization"
+- "UnsafeMutablePointer"
+- "String"
+- !private "OAuthSwiftDataEncoding"
+- !private "StringLiteralType"
+- "NSObject"
+- "URLRequest"
+depends-member:
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "OAuthSwiftDataEncoding"]
+- ["Ps9AnyObject", "PropertyListFormat"]
+- !private ["Ps9AnyObject", "PropertyListSerialization"]
+- ["Ps9AnyObject", "ReadOptions"]
+- ["Ps9AnyObject", "ReadingOptions"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "data"]
+- ["Ps9AnyObject", "dataString"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "jsonObject"]
+- ["Ps9AnyObject", "propertyList"]
+- ["Ps9AnyObject", "request"]
+- ["Ps9AnyObject", "response"]
+- ["Ps9AnyObject", "string"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "Encoding"]
+- !private ["Ps7CVarArg", "JSONSerialization"]
+- !private ["Ps7CVarArg", "OAuthSwiftDataEncoding"]
+- ["Ps7CVarArg", "PropertyListFormat"]
+- !private ["Ps7CVarArg", "PropertyListSerialization"]
+- ["Ps7CVarArg", "ReadOptions"]
+- ["Ps7CVarArg", "ReadingOptions"]
+- !private ["Ps7CVarArg", "String"]
+- ["Ps7CVarArg", "data"]
+- ["Ps7CVarArg", "dataString"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "jsonObject"]
+- ["Ps7CVarArg", "propertyList"]
+- ["Ps7CVarArg", "request"]
+- ["Ps7CVarArg", "response"]
+- ["Ps7CVarArg", "string"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "Encoding"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Encoding"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "OAuthSwiftDataEncoding"]
+- ["Ps28CustomDebugStringConvertible", "PropertyListFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "PropertyListSerialization"]
+- ["Ps28CustomDebugStringConvertible", "ReadOptions"]
+- ["Ps28CustomDebugStringConvertible", "ReadingOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- ["Ps28CustomDebugStringConvertible", "data"]
+- ["Ps28CustomDebugStringConvertible", "dataString"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- ["Ps28CustomDebugStringConvertible", "propertyList"]
+- ["Ps28CustomDebugStringConvertible", "request"]
+- ["Ps28CustomDebugStringConvertible", "response"]
+- ["Ps28CustomDebugStringConvertible", "string"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Encoding"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Encoding"]
+- !private ["Ps23CustomStringConvertible", "JSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "OAuthSwiftDataEncoding"]
+- ["Ps23CustomStringConvertible", "PropertyListFormat"]
+- !private ["Ps23CustomStringConvertible", "PropertyListSerialization"]
+- ["Ps23CustomStringConvertible", "ReadOptions"]
+- ["Ps23CustomStringConvertible", "ReadingOptions"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "data"]
+- ["Ps23CustomStringConvertible", "dataString"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "jsonObject"]
+- ["Ps23CustomStringConvertible", "propertyList"]
+- ["Ps23CustomStringConvertible", "request"]
+- ["Ps23CustomStringConvertible", "response"]
+- ["Ps23CustomStringConvertible", "string"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Data", "deinit"]
+- ["VE10FoundationSS8Encoding", "deinit"]
+- !private ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "Encoding"]
+- !private ["Ps9Equatable", "JSONSerialization"]
+- !private ["Ps9Equatable", "OAuthSwiftDataEncoding"]
+- ["Ps9Equatable", "PropertyListFormat"]
+- !private ["Ps9Equatable", "PropertyListSerialization"]
+- ["Ps9Equatable", "ReadOptions"]
+- ["Ps9Equatable", "ReadingOptions"]
+- !private ["Ps9Equatable", "String"]
+- ["Ps9Equatable", "data"]
+- ["Ps9Equatable", "dataString"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "jsonObject"]
+- ["Ps9Equatable", "propertyList"]
+- ["Ps9Equatable", "request"]
+- ["Ps9Equatable", "response"]
+- ["Ps9Equatable", "string"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "Encoding"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "Encoding"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["CSo15HTTPURLResponse", "deinit"]
+- ["Ps8Hashable", "Encoding"]
+- !private ["Ps8Hashable", "JSONSerialization"]
+- !private ["Ps8Hashable", "OAuthSwiftDataEncoding"]
+- ["Ps8Hashable", "PropertyListFormat"]
+- !private ["Ps8Hashable", "PropertyListSerialization"]
+- ["Ps8Hashable", "ReadOptions"]
+- ["Ps8Hashable", "ReadingOptions"]
+- !private ["Ps8Hashable", "String"]
+- ["Ps8Hashable", "data"]
+- ["Ps8Hashable", "dataString"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "jsonObject"]
+- ["Ps8Hashable", "propertyList"]
+- ["Ps8Hashable", "request"]
+- ["Ps8Hashable", "response"]
+- ["Ps8Hashable", "string"]
+- ["Ps8Hashable", ""]
+- ["CSo17JSONSerialization", "ReadingOptions"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- ["Ps25LosslessStringConvertible", "Encoding"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "Encoding"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["VCSo25PropertyListSerialization17MutabilityOptions", "Element"]
+- ["VCSo25PropertyListSerialization17MutabilityOptions", "deinit"]
+- ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "HTTPURLResponse"]
+- ["CSo8NSObject", "JSONSerialization"]
+- !private ["CSo8NSObject", "OAuthSwiftDataEncoding"]
+- ["CSo8NSObject", "PropertyListFormat"]
+- ["CSo8NSObject", "PropertyListSerialization"]
+- ["CSo8NSObject", "ReadOptions"]
+- ["CSo8NSObject", "ReadingOptions"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "URLRequest"]
+- ["CSo8NSObject", "UnsafeMutablePointer"]
+- ["CSo8NSObject", "data"]
+- ["CSo8NSObject", "dataString"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "jsonObject"]
+- ["CSo8NSObject", "propertyList"]
+- ["CSo8NSObject", "request"]
+- ["CSo8NSObject", "response"]
+- ["CSo8NSObject", "string"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "JSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "OAuthSwiftDataEncoding"]
+- ["PSo16NSObjectProtocol", "PropertyListFormat"]
+- !private ["PSo16NSObjectProtocol", "PropertyListSerialization"]
+- ["PSo16NSObjectProtocol", "ReadOptions"]
+- ["PSo16NSObjectProtocol", "ReadingOptions"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "data"]
+- ["PSo16NSObjectProtocol", "dataString"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "jsonObject"]
+- ["PSo16NSObjectProtocol", "propertyList"]
+- ["PSo16NSObjectProtocol", "request"]
+- ["PSo16NSObjectProtocol", "response"]
+- ["PSo16NSObjectProtocol", "string"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Os5Never", "deinit"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "Data"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "HTTPURLResponse"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "JSONSerialization"]
+- !private ["C10OAuthSwift18OAuthSwiftResponse", "OAuthSwiftDataEncoding"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "PropertyListSerialization"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "String"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "URLRequest"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "UnsafeMutablePointer"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "data"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "dataString"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "deinit"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "init"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "jsonObject"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "propertyList"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "request"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "response"]
+- ["C10OAuthSwift18OAuthSwiftResponse", "string"]
+- !private ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- ["CSo25PropertyListSerialization", "PropertyListFormat"]
+- ["CSo25PropertyListSerialization", "ReadOptions"]
+- !private ["CSo25PropertyListSerialization", "propertyList"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "Element"]
+- ["VCSo17JSONSerialization14ReadingOptions", "deinit"]
+- !private ["Ps10SetAlgebra", "Element"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "Encoding"]
+- !private ["SS", "init"]
+- ["Ps16TextOutputStream", "Encoding"]
+- !private ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "Encoding"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps9_Hashable", "Encoding"]
+- !private ["Ps9_Hashable", "JSONSerialization"]
+- !private ["Ps9_Hashable", "OAuthSwiftDataEncoding"]
+- ["Ps9_Hashable", "PropertyListFormat"]
+- !private ["Ps9_Hashable", "PropertyListSerialization"]
+- ["Ps9_Hashable", "ReadOptions"]
+- ["Ps9_Hashable", "ReadingOptions"]
+- !private ["Ps9_Hashable", "String"]
+- ["Ps9_Hashable", "data"]
+- ["Ps9_Hashable", "dataString"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "jsonObject"]
+- ["Ps9_Hashable", "propertyList"]
+- ["Ps9_Hashable", "request"]
+- ["Ps9_Hashable", "response"]
+- ["Ps9_Hashable", "string"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "Encoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "VE10FoundationSS8Encoding"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo15HTTPURLResponse"
+- "Ps8Hashable"
+- "CSo17JSONSerialization"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "VCSo25PropertyListSerialization17MutabilityOptions"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Os5Never"
+- "C10OAuthSwift18OAuthSwiftResponse"
+- !private "Ps9OptionSet"
+- "Sq"
+- "CSo25PropertyListSerialization"
+- !private "Ps16RawRepresentable"
+- "VCSo17JSONSerialization14ReadingOptions"
+- !private "Ps10SetAlgebra"
+- "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/Pods/Target Support Files/OAuthSwift/OAuthSwift-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Pods.build/Debug-iphoneos/OAuthSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "0858084e29f901f05aa86cfa2fd4bf17"
