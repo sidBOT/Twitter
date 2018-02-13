@@ -153,6 +153,7 @@ SWIFT_CLASS("_TtC22twitter_alamofire_demo19LoginViewController")
 @class UIRefreshControl;
 @class UITableView;
 @class UITableViewCell;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC22twitter_alamofire_demo22TimelineViewController")
 @interface TimelineViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
@@ -165,6 +166,7 @@ SWIFT_CLASS("_TtC22twitter_alamofire_demo22TimelineViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)didReceiveMemoryWarning;
 - (IBAction)didTapLogout:(id _Nonnull)sender;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -185,6 +187,23 @@ SWIFT_CLASS("_TtC22twitter_alamofire_demo9TweetCell")
 - (IBAction)likeButtonAction:(id _Nonnull)sender;
 - (IBAction)retweetButtonAction:(id _Nonnull)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC22twitter_alamofire_demo28TwitterDetailsViewController")
+@interface TwitterDetailsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tweetLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified likeButton;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified retweetLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified retweetButton;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified likeLabel;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)replyButtonAction:(id _Nonnull)sender;
+- (IBAction)likeButtonAction:(id _Nonnull)sender;
+- (IBAction)retweetButtonAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 

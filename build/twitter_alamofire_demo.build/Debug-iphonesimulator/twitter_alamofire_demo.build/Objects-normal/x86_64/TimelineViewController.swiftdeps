@@ -6,35 +6,38 @@ provides-nominal:
 provides-member:
 - ["C22twitter_alamofire_demo22TimelineViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "didReceiveMemoryWarning"
-- "refreshControl"
-- "didPullToRefresh"
+- "prepare"
 - "didTapLogout"
 - "tableView"
 - "tableView"
 - "tableView"
 - "tableView"
+- "viewDidLoad"
+- "didPullToRefresh"
+- "refreshControl"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- "UITableView"
-- "Int"
+- !private "print"
 - "CastingPrecedence"
 - !private "UITableViewAutomaticDimension"
-- "AssignmentPrecedence"
-- !private "TweetCell"
-- "TimelineViewController"
-- "UIRefreshControl"
-- !private "print"
-- !private "APIManager"
-- "UITableViewCell"
-- "UIViewController"
-- !private "BooleanLiteralType"
-- "IndexPath"
 - "UITableViewDataSource"
-- "UITableViewDelegate"
-- "StringLiteralType"
-- !private "+"
+- "AssignmentPrecedence"
 - "Tweet"
+- "UITableViewCell"
+- !private "TwitterDetailsViewController"
+- "UITableViewDelegate"
+- "UIStoryboardSegue"
+- !private "BooleanLiteralType"
+- "TimelineViewController"
+- "UIViewController"
+- "UIRefreshControl"
+- !private "+"
+- "Int"
+- "IndexPath"
+- !private "APIManager"
+- "UITableView"
+- "StringLiteralType"
+- !private "TweetCell"
 depends-member:
 - !private ["C22twitter_alamofire_demo10APIManager", "getHomeTimeLine"]
 - !private ["C22twitter_alamofire_demo10APIManager", "logout"]
@@ -48,11 +51,13 @@ depends-member:
 - !private ["Ps9AnyObject", "delegate"]
 - !private ["Ps9AnyObject", "dequeueReusableCell"]
 - !private ["Ps9AnyObject", "deselectRow"]
+- !private ["Ps9AnyObject", "destination"]
 - ["Ps9AnyObject", "didPullToRefresh"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - ["Ps9AnyObject", "didTapLogout"]
 - !private ["Ps9AnyObject", "estimatedRowHeight"]
 - !private ["Ps9AnyObject", "getHomeTimeLine"]
+- !private ["Ps9AnyObject", "indexPath"]
 - ["Ps9AnyObject", "indexPathForPreferredFocusedView"]
 - ["Ps9AnyObject", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps9AnyObject", "init"]
@@ -60,6 +65,7 @@ depends-member:
 - !private ["Ps9AnyObject", "logout"]
 - ["Ps9AnyObject", "numberOfSections"]
 - ["Ps9AnyObject", "numberOfSectionsInTableView"]
+- ["Ps9AnyObject", "prepare"]
 - !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", "refreshControl"]
 - !private ["Ps9AnyObject", "reloadData"]
@@ -127,6 +133,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "dequeueReusableCell"]
 - !private ["PSo15CALayerDelegate", "deselectRow"]
 - !private ["PSo15CALayerDelegate", "estimatedRowHeight"]
+- !private ["PSo15CALayerDelegate", "indexPath"]
 - !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "insertSubview"]
 - !private ["PSo15CALayerDelegate", "reloadData"]
@@ -150,16 +157,19 @@ depends-member:
 - !private ["Ps7CVarArg", "delegate"]
 - !private ["Ps7CVarArg", "dequeueReusableCell"]
 - !private ["Ps7CVarArg", "deselectRow"]
+- !private ["Ps7CVarArg", "destination"]
 - ["Ps7CVarArg", "didPullToRefresh"]
 - ["Ps7CVarArg", "didReceiveMemoryWarning"]
 - ["Ps7CVarArg", "didTapLogout"]
 - !private ["Ps7CVarArg", "estimatedRowHeight"]
+- !private ["Ps7CVarArg", "indexPath"]
 - ["Ps7CVarArg", "indexPathForPreferredFocusedView"]
 - ["Ps7CVarArg", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "insertSubview"]
 - ["Ps7CVarArg", "numberOfSections"]
 - ["Ps7CVarArg", "numberOfSectionsInTableView"]
+- ["Ps7CVarArg", "prepare"]
 - !private ["Ps7CVarArg", "print"]
 - ["Ps7CVarArg", "refreshControl"]
 - !private ["Ps7CVarArg", "reloadData"]
@@ -214,16 +224,19 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "delegate"]
 - !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCell"]
 - !private ["Ps28CustomDebugStringConvertible", "deselectRow"]
+- !private ["Ps28CustomDebugStringConvertible", "destination"]
 - ["Ps28CustomDebugStringConvertible", "didPullToRefresh"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps28CustomDebugStringConvertible", "didTapLogout"]
 - !private ["Ps28CustomDebugStringConvertible", "estimatedRowHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "indexPath"]
 - ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedView"]
 - ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "insertSubview"]
 - ["Ps28CustomDebugStringConvertible", "numberOfSections"]
 - ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
+- ["Ps28CustomDebugStringConvertible", "prepare"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - ["Ps28CustomDebugStringConvertible", "refreshControl"]
 - !private ["Ps28CustomDebugStringConvertible", "reloadData"]
@@ -283,16 +296,19 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "delegate"]
 - !private ["Ps23CustomStringConvertible", "dequeueReusableCell"]
 - !private ["Ps23CustomStringConvertible", "deselectRow"]
+- !private ["Ps23CustomStringConvertible", "destination"]
 - ["Ps23CustomStringConvertible", "didPullToRefresh"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps23CustomStringConvertible", "didTapLogout"]
 - !private ["Ps23CustomStringConvertible", "estimatedRowHeight"]
+- !private ["Ps23CustomStringConvertible", "indexPath"]
 - ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedView"]
 - ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "insertSubview"]
 - ["Ps23CustomStringConvertible", "numberOfSections"]
 - ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
+- ["Ps23CustomStringConvertible", "prepare"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - ["Ps23CustomStringConvertible", "refreshControl"]
 - !private ["Ps23CustomStringConvertible", "reloadData"]
@@ -342,16 +358,19 @@ depends-member:
 - !private ["Ps9Equatable", "delegate"]
 - !private ["Ps9Equatable", "dequeueReusableCell"]
 - !private ["Ps9Equatable", "deselectRow"]
+- !private ["Ps9Equatable", "destination"]
 - ["Ps9Equatable", "didPullToRefresh"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - ["Ps9Equatable", "didTapLogout"]
 - !private ["Ps9Equatable", "estimatedRowHeight"]
+- !private ["Ps9Equatable", "indexPath"]
 - ["Ps9Equatable", "indexPathForPreferredFocusedView"]
 - ["Ps9Equatable", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "insertSubview"]
 - ["Ps9Equatable", "numberOfSections"]
 - ["Ps9Equatable", "numberOfSectionsInTableView"]
+- ["Ps9Equatable", "prepare"]
 - !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "refreshControl"]
 - !private ["Ps9Equatable", "reloadData"]
@@ -408,16 +427,19 @@ depends-member:
 - !private ["Ps8Hashable", "delegate"]
 - !private ["Ps8Hashable", "dequeueReusableCell"]
 - !private ["Ps8Hashable", "deselectRow"]
+- !private ["Ps8Hashable", "destination"]
 - ["Ps8Hashable", "didPullToRefresh"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - ["Ps8Hashable", "didTapLogout"]
 - !private ["Ps8Hashable", "estimatedRowHeight"]
+- !private ["Ps8Hashable", "indexPath"]
 - ["Ps8Hashable", "indexPathForPreferredFocusedView"]
 - ["Ps8Hashable", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "insertSubview"]
 - ["Ps8Hashable", "numberOfSections"]
 - ["Ps8Hashable", "numberOfSectionsInTableView"]
+- ["Ps8Hashable", "prepare"]
 - !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "refreshControl"]
 - !private ["Ps8Hashable", "reloadData"]
@@ -510,12 +532,14 @@ depends-member:
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "didTapLogout"]
 - !private ["PSo8NSCoding", "estimatedRowHeight"]
+- !private ["PSo8NSCoding", "indexPath"]
 - ["PSo8NSCoding", "indexPathForPreferredFocusedView"]
 - ["PSo8NSCoding", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "insertSubview"]
 - ["PSo8NSCoding", "numberOfSections"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
+- ["PSo8NSCoding", "prepare"]
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "refreshControl"]
 - !private ["PSo8NSCoding", "reloadData"]
@@ -554,6 +578,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSections"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
+- ["PSo26NSExtensionRequestHandling", "prepare"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "refreshControl"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDecelerating"]
@@ -571,6 +596,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "sectionIndexTitles"]
 - ["PSo26NSExtensionRequestHandling", "sectionIndexTitlesForTableView"]
 - ["PSo26NSExtensionRequestHandling", "tableView"]
+- !private ["PSo26NSExtensionRequestHandling", "tweet"]
 - ["PSo26NSExtensionRequestHandling", "tweets"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", "viewForZooming"]
@@ -583,7 +609,9 @@ depends-member:
 - !private ["CSo8NSObject", "TimelineViewController"]
 - ["CSo8NSObject", "Tweet"]
 - !private ["CSo8NSObject", "TweetCell"]
+- !private ["CSo8NSObject", "TwitterDetailsViewController"]
 - ["CSo8NSObject", "UIRefreshControl"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
 - ["CSo8NSObject", "UITableView"]
 - !private ["CSo8NSObject", "UITableViewAutomaticDimension"]
 - ["CSo8NSObject", "UITableViewCell"]
@@ -592,16 +620,19 @@ depends-member:
 - !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "dequeueReusableCell"]
 - !private ["CSo8NSObject", "deselectRow"]
+- !private ["CSo8NSObject", "destination"]
 - ["CSo8NSObject", "didPullToRefresh"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "didTapLogout"]
 - !private ["CSo8NSObject", "estimatedRowHeight"]
+- !private ["CSo8NSObject", "indexPath"]
 - ["CSo8NSObject", "indexPathForPreferredFocusedView"]
 - ["CSo8NSObject", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "insertSubview"]
 - ["CSo8NSObject", "numberOfSections"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
+- ["CSo8NSObject", "prepare"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "refreshControl"]
 - !private ["CSo8NSObject", "reloadData"]
@@ -635,16 +666,19 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCell"]
 - !private ["PSo16NSObjectProtocol", "deselectRow"]
+- !private ["PSo16NSObjectProtocol", "destination"]
 - ["PSo16NSObjectProtocol", "didPullToRefresh"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "didTapLogout"]
 - !private ["PSo16NSObjectProtocol", "estimatedRowHeight"]
+- !private ["PSo16NSObjectProtocol", "indexPath"]
 - ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedView"]
 - ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "insertSubview"]
 - ["PSo16NSObjectProtocol", "numberOfSections"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- ["PSo16NSObjectProtocol", "prepare"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "refreshControl"]
 - !private ["PSo16NSObjectProtocol", "reloadData"]
@@ -750,7 +784,9 @@ depends-member:
 - !private ["C22twitter_alamofire_demo22TimelineViewController", "TimelineViewController"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "Tweet"]
 - !private ["C22twitter_alamofire_demo22TimelineViewController", "TweetCell"]
+- !private ["C22twitter_alamofire_demo22TimelineViewController", "TwitterDetailsViewController"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "UIRefreshControl"]
+- ["C22twitter_alamofire_demo22TimelineViewController", "UIStoryboardSegue"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "UITableView"]
 - !private ["C22twitter_alamofire_demo22TimelineViewController", "UITableViewAutomaticDimension"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "UITableViewCell"]
@@ -763,6 +799,7 @@ depends-member:
 - ["C22twitter_alamofire_demo22TimelineViewController", "init"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "numberOfSections"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "numberOfSectionsInTableView"]
+- ["C22twitter_alamofire_demo22TimelineViewController", "prepare"]
 - !private ["C22twitter_alamofire_demo22TimelineViewController", "print"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "refreshControl"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "scrollViewDidEndDecelerating"]
@@ -784,14 +821,18 @@ depends-member:
 - ["C22twitter_alamofire_demo22TimelineViewController", "viewDidLoad"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "viewForZooming"]
 - ["C22twitter_alamofire_demo22TimelineViewController", "viewForZoomingInScrollView"]
+- ["C22twitter_alamofire_demo5Tweet", "deinit"]
 - ["C22twitter_alamofire_demo9TweetCell", "deinit"]
 - !private ["C22twitter_alamofire_demo9TweetCell", "tweet"]
+- ["C22twitter_alamofire_demo28TwitterDetailsViewController", "deinit"]
+- !private ["C22twitter_alamofire_demo28TwitterDetailsViewController", "tweet"]
 - !private ["PSo29UIAccessibilityIdentification", "addTarget"]
 - !private ["PSo29UIAccessibilityIdentification", "dataSource"]
 - !private ["PSo29UIAccessibilityIdentification", "delegate"]
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCell"]
 - !private ["PSo29UIAccessibilityIdentification", "deselectRow"]
 - !private ["PSo29UIAccessibilityIdentification", "estimatedRowHeight"]
+- !private ["PSo29UIAccessibilityIdentification", "indexPath"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "insertSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "reloadData"]
@@ -803,6 +844,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "dequeueReusableCell"]
 - !private ["PSo12UIAppearance", "deselectRow"]
 - !private ["PSo12UIAppearance", "estimatedRowHeight"]
+- !private ["PSo12UIAppearance", "indexPath"]
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "insertSubview"]
 - !private ["PSo12UIAppearance", "reloadData"]
@@ -821,12 +863,14 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "didTapLogout"]
 - !private ["PSo21UIAppearanceContainer", "estimatedRowHeight"]
+- !private ["PSo21UIAppearanceContainer", "indexPath"]
 - ["PSo21UIAppearanceContainer", "indexPathForPreferredFocusedView"]
 - ["PSo21UIAppearanceContainer", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "insertSubview"]
 - ["PSo21UIAppearanceContainer", "numberOfSections"]
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
+- ["PSo21UIAppearanceContainer", "prepare"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "refreshControl"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
@@ -864,6 +908,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "numberOfSections"]
 - ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
+- ["PSo18UIContentContainer", "prepare"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "refreshControl"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDecelerating"]
@@ -881,6 +926,7 @@ depends-member:
 - ["PSo18UIContentContainer", "sectionIndexTitles"]
 - ["PSo18UIContentContainer", "sectionIndexTitlesForTableView"]
 - ["PSo18UIContentContainer", "tableView"]
+- !private ["PSo18UIContentContainer", "tweet"]
 - ["PSo18UIContentContainer", "tweets"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", "viewForZooming"]
@@ -896,6 +942,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCell"]
 - !private ["PSo17UICoordinateSpace", "deselectRow"]
 - !private ["PSo17UICoordinateSpace", "estimatedRowHeight"]
+- !private ["PSo17UICoordinateSpace", "indexPath"]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "insertSubview"]
 - !private ["PSo17UICoordinateSpace", "reloadData"]
@@ -907,6 +954,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "dequeueReusableCell"]
 - !private ["PSo13UIDynamicItem", "deselectRow"]
 - !private ["PSo13UIDynamicItem", "estimatedRowHeight"]
+- !private ["PSo13UIDynamicItem", "indexPath"]
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "insertSubview"]
 - !private ["PSo13UIDynamicItem", "reloadData"]
@@ -925,12 +973,14 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "didTapLogout"]
 - !private ["PSo18UIFocusEnvironment", "estimatedRowHeight"]
+- !private ["PSo18UIFocusEnvironment", "indexPath"]
 - ["PSo18UIFocusEnvironment", "indexPathForPreferredFocusedView"]
 - ["PSo18UIFocusEnvironment", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "insertSubview"]
 - ["PSo18UIFocusEnvironment", "numberOfSections"]
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
+- ["PSo18UIFocusEnvironment", "prepare"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "refreshControl"]
 - !private ["PSo18UIFocusEnvironment", "reloadData"]
@@ -962,6 +1012,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "dequeueReusableCell"]
 - !private ["PSo11UIFocusItem", "deselectRow"]
 - !private ["PSo11UIFocusItem", "estimatedRowHeight"]
+- !private ["PSo11UIFocusItem", "indexPath"]
 - !private ["PSo11UIFocusItem", "init"]
 - !private ["PSo11UIFocusItem", "insertSubview"]
 - !private ["PSo11UIFocusItem", "reloadData"]
@@ -977,7 +1028,9 @@ depends-member:
 - !private ["CSo11UIResponder", "TimelineViewController"]
 - ["CSo11UIResponder", "Tweet"]
 - !private ["CSo11UIResponder", "TweetCell"]
+- !private ["CSo11UIResponder", "TwitterDetailsViewController"]
 - ["CSo11UIResponder", "UIRefreshControl"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
 - ["CSo11UIResponder", "UITableView"]
 - !private ["CSo11UIResponder", "UITableViewAutomaticDimension"]
 - ["CSo11UIResponder", "UITableViewCell"]
@@ -990,12 +1043,14 @@ depends-member:
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "didTapLogout"]
 - !private ["CSo11UIResponder", "estimatedRowHeight"]
+- !private ["CSo11UIResponder", "indexPath"]
 - ["CSo11UIResponder", "indexPathForPreferredFocusedView"]
 - ["CSo11UIResponder", "indexPathForPreferredFocusedViewInTableView"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "insertSubview"]
 - ["CSo11UIResponder", "numberOfSections"]
 - ["CSo11UIResponder", "numberOfSectionsInTableView"]
+- ["CSo11UIResponder", "prepare"]
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "refreshControl"]
 - !private ["CSo11UIResponder", "reloadData"]
@@ -1033,12 +1088,14 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
 - ["PSo30UIResponderStandardEditActions", "didTapLogout"]
 - !private ["PSo30UIResponderStandardEditActions", "estimatedRowHeight"]
+- !private ["PSo30UIResponderStandardEditActions", "indexPath"]
 - ["PSo30UIResponderStandardEditActions", "indexPathForPreferredFocusedView"]
 - ["PSo30UIResponderStandardEditActions", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "insertSubview"]
 - ["PSo30UIResponderStandardEditActions", "numberOfSections"]
 - ["PSo30UIResponderStandardEditActions", "numberOfSectionsInTableView"]
+- ["PSo30UIResponderStandardEditActions", "prepare"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - ["PSo30UIResponderStandardEditActions", "refreshControl"]
 - !private ["PSo30UIResponderStandardEditActions", "reloadData"]
@@ -1069,6 +1126,7 @@ depends-member:
 - !private ["CSo12UIScrollView", "dequeueReusableCell"]
 - !private ["CSo12UIScrollView", "deselectRow"]
 - !private ["CSo12UIScrollView", "estimatedRowHeight"]
+- !private ["CSo12UIScrollView", "indexPath"]
 - !private ["CSo12UIScrollView", "insertSubview"]
 - !private ["CSo12UIScrollView", "reloadData"]
 - !private ["CSo12UIScrollView", "rowHeight"]
@@ -1115,6 +1173,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "numberOfSections"]
 - ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
+- ["PSo16UIStateRestoring", "prepare"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "refreshControl"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDecelerating"]
@@ -1132,17 +1191,21 @@ depends-member:
 - ["PSo16UIStateRestoring", "sectionIndexTitles"]
 - ["PSo16UIStateRestoring", "sectionIndexTitlesForTableView"]
 - ["PSo16UIStateRestoring", "tableView"]
+- !private ["PSo16UIStateRestoring", "tweet"]
 - ["PSo16UIStateRestoring", "tweets"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "viewForZooming"]
 - ["PSo16UIStateRestoring", "viewForZoomingInScrollView"]
 - ["PSo16UIStateRestoring", ""]
+- ["CSo17UIStoryboardSegue", "deinit"]
+- !private ["CSo17UIStoryboardSegue", "destination"]
 - !private ["CSo11UITableView", "dataSource"]
 - ["CSo11UITableView", "deinit"]
 - !private ["CSo11UITableView", "delegate"]
 - !private ["CSo11UITableView", "dequeueReusableCell"]
 - !private ["CSo11UITableView", "deselectRow"]
 - !private ["CSo11UITableView", "estimatedRowHeight"]
+- !private ["CSo11UITableView", "indexPath"]
 - !private ["CSo11UITableView", "insertSubview"]
 - !private ["CSo11UITableView", "reloadData"]
 - !private ["CSo11UITableView", "rowHeight"]
@@ -1223,12 +1286,14 @@ depends-member:
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "didTapLogout"]
 - !private ["PSo18UITraitEnvironment", "estimatedRowHeight"]
+- !private ["PSo18UITraitEnvironment", "indexPath"]
 - ["PSo18UITraitEnvironment", "indexPathForPreferredFocusedView"]
 - ["PSo18UITraitEnvironment", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "insertSubview"]
 - ["PSo18UITraitEnvironment", "numberOfSections"]
 - ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
+- ["PSo18UITraitEnvironment", "prepare"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "refreshControl"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
@@ -1260,6 +1325,7 @@ depends-member:
 - !private ["CSo6UIView", "dequeueReusableCell"]
 - !private ["CSo6UIView", "deselectRow"]
 - !private ["CSo6UIView", "estimatedRowHeight"]
+- !private ["CSo6UIView", "indexPath"]
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "insertSubview"]
 - !private ["CSo6UIView", "reloadData"]
@@ -1271,7 +1337,9 @@ depends-member:
 - !private ["CSo16UIViewController", "TimelineViewController"]
 - ["CSo16UIViewController", "Tweet"]
 - !private ["CSo16UIViewController", "TweetCell"]
+- !private ["CSo16UIViewController", "TwitterDetailsViewController"]
 - ["CSo16UIViewController", "UIRefreshControl"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
 - ["CSo16UIViewController", "UITableView"]
 - !private ["CSo16UIViewController", "UITableViewAutomaticDimension"]
 - ["CSo16UIViewController", "UITableViewCell"]
@@ -1284,6 +1352,7 @@ depends-member:
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "numberOfSections"]
 - ["CSo16UIViewController", "numberOfSectionsInTableView"]
+- ["CSo16UIViewController", "prepare"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "refreshControl"]
 - ["CSo16UIViewController", "scrollViewDidEndDecelerating"]
@@ -1301,6 +1370,7 @@ depends-member:
 - ["CSo16UIViewController", "sectionIndexTitles"]
 - ["CSo16UIViewController", "sectionIndexTitlesForTableView"]
 - ["CSo16UIViewController", "tableView"]
+- !private ["CSo16UIViewController", "tweet"]
 - ["CSo16UIViewController", "tweets"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewForZooming"]
@@ -1319,6 +1389,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dequeueReusableCell"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "deselectRow"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "estimatedRowHeight"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "indexPath"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "insertSubview"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "reloadData"]
@@ -1350,16 +1421,19 @@ depends-member:
 - !private ["Ps9_Hashable", "delegate"]
 - !private ["Ps9_Hashable", "dequeueReusableCell"]
 - !private ["Ps9_Hashable", "deselectRow"]
+- !private ["Ps9_Hashable", "destination"]
 - ["Ps9_Hashable", "didPullToRefresh"]
 - ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - ["Ps9_Hashable", "didTapLogout"]
 - !private ["Ps9_Hashable", "estimatedRowHeight"]
+- !private ["Ps9_Hashable", "indexPath"]
 - ["Ps9_Hashable", "indexPathForPreferredFocusedView"]
 - ["Ps9_Hashable", "indexPathForPreferredFocusedViewInTableView"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "insertSubview"]
 - ["Ps9_Hashable", "numberOfSections"]
 - ["Ps9_Hashable", "numberOfSectionsInTableView"]
+- ["Ps9_Hashable", "prepare"]
 - !private ["Ps9_Hashable", "print"]
 - ["Ps9_Hashable", "refreshControl"]
 - !private ["Ps9_Hashable", "reloadData"]
@@ -1484,7 +1558,9 @@ depends-nominal:
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - "C22twitter_alamofire_demo22TimelineViewController"
+- "C22twitter_alamofire_demo5Tweet"
 - "C22twitter_alamofire_demo9TweetCell"
+- "C22twitter_alamofire_demo28TwitterDetailsViewController"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -1502,6 +1578,7 @@ depends-nominal:
 - !private "CSo12UIScrollView"
 - "PSo20UIScrollViewDelegate"
 - "PSo16UIStateRestoring"
+- "CSo17UIStoryboardSegue"
 - "CSo11UITableView"
 - "CSo15UITableViewCell"
 - "PSo21UITableViewDataSource"
@@ -1554,4 +1631,4 @@ depends-external:
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
-interface-hash: "97ad4b9bdcabc227b740bccbb18a414c"
+interface-hash: "d133b736233e53c42e4d829d84566ce6"

@@ -7,16 +7,16 @@ provides-member:
 - ["C22twitter_alamofire_demo5Tweet", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Tweet"
-- !private "StringLiteralType"
-- "Int"
+- "AssignmentPrecedence"
+- "Int64"
+- "CastingPrecedence"
 - !private "DateFormatter"
 - "String"
 - "Bool"
-- "AssignmentPrecedence"
-- "Int64"
+- "Tweet"
+- "Int"
+- !private "StringLiteralType"
 - "User"
-- "CastingPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "DateFormatter"]
 - !private ["Ps9AnyObject", "User"]
