@@ -10,30 +10,32 @@ provides-member:
 - ["O22twitter_alamofire_demo9JSONError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSKeyedArchiver"
-- !private "NSKeyedUnarchiver"
-- "StringLiteralType"
-- "JSONError"
-- !private "URLEncoding"
-- "URL"
-- !private "NSLocalizedDescriptionKey"
-- "Error"
-- "User"
-- !private "print"
-- !private "Keychain"
-- !private "NotificationCenter"
-- "APIManager"
-- "OAuth1Swift"
-- !private "OAuthSwiftCredential"
-- "Tweet"
-- !private "NSNotification"
-- "String"
+- !private "OAuthSwiftResponse"
 - !private "NSError"
 - "Dictionary"
-- !private "UserDefaults"
-- !private "AssignmentPrecedence"
+- !private "URLEncoding"
+- "User"
+- "OAuth1Swift"
+- !private "OAuthSwiftCredential"
+- !private "OAuthSwiftError"
+- "APIManager"
 - "SessionManager"
+- "JSONError"
 - !private "CastingPrecedence"
+- !private "UserDefaults"
+- !private "NSKeyedArchiver"
+- !private "AssignmentPrecedence"
+- !private "NSKeyedUnarchiver"
+- "StringLiteralType"
+- !private "print"
+- "String"
+- "Error"
+- "Tweet"
+- !private "NSLocalizedDescriptionKey"
+- !private "NotificationCenter"
+- "URL"
+- !private "NSNotification"
+- !private "Keychain"
 depends-member:
 - ["C22twitter_alamofire_demo10APIManager", "APIManager"]
 - ["C22twitter_alamofire_demo10APIManager", "Error"]
@@ -47,7 +49,9 @@ depends-member:
 - !private ["C22twitter_alamofire_demo10APIManager", "NotificationCenter"]
 - ["C22twitter_alamofire_demo10APIManager", "OAuth1Swift"]
 - !private ["C22twitter_alamofire_demo10APIManager", "OAuthSwiftCredential"]
-- !private ["C22twitter_alamofire_demo10APIManager", "String"]
+- !private ["C22twitter_alamofire_demo10APIManager", "OAuthSwiftError"]
+- !private ["C22twitter_alamofire_demo10APIManager", "OAuthSwiftResponse"]
+- ["C22twitter_alamofire_demo10APIManager", "String"]
 - ["C22twitter_alamofire_demo10APIManager", "Tweet"]
 - ["C22twitter_alamofire_demo10APIManager", "URL"]
 - !private ["C22twitter_alamofire_demo10APIManager", "URLEncoding"]
@@ -58,6 +62,7 @@ depends-member:
 - ["C22twitter_alamofire_demo10APIManager", "authorizeURL"]
 - ["C22twitter_alamofire_demo10APIManager", "callbackURLString"]
 - !private ["C22twitter_alamofire_demo10APIManager", "clearCredentials"]
+- ["C22twitter_alamofire_demo10APIManager", "composeTweet"]
 - ["C22twitter_alamofire_demo10APIManager", "consumerKey"]
 - ["C22twitter_alamofire_demo10APIManager", "consumerSecret"]
 - ["C22twitter_alamofire_demo10APIManager", "deinit"]
@@ -102,6 +107,7 @@ depends-member:
 - ["Ps9AnyObject", "callbackURLString"]
 - ["Ps9AnyObject", "clearCredentials"]
 - !private ["Ps9AnyObject", "client"]
+- ["Ps9AnyObject", "composeTweet"]
 - ["Ps9AnyObject", "consumerKey"]
 - ["Ps9AnyObject", "consumerSecret"]
 - !private ["Ps9AnyObject", "credential"]
@@ -112,6 +118,7 @@ depends-member:
 - ["Ps9AnyObject", "handle"]
 - !private ["Ps9AnyObject", "id"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonObject"]
 - ["Ps9AnyObject", "login"]
 - ["Ps9AnyObject", "logout"]
 - !private ["Ps9AnyObject", "name"]
@@ -163,6 +170,7 @@ depends-member:
 - !private ["Ps7CVarArg", "flatMap"]
 - !private ["Ps7CVarArg", "handle"]
 - ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonObject"]
 - !private ["Ps7CVarArg", "oauthToken"]
 - !private ["Ps7CVarArg", "oauthTokenSecret"]
 - !private ["Ps7CVarArg", "post"]
@@ -194,6 +202,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "handle"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "isSuccess"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
 - !private ["Ps28CustomDebugStringConvertible", "oauthToken"]
 - !private ["Ps28CustomDebugStringConvertible", "oauthTokenSecret"]
 - !private ["Ps28CustomDebugStringConvertible", "post"]
@@ -209,6 +218,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "unarchiveObject"]
 - !private ["Ps28CustomDebugStringConvertible", "validate"]
 - !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["P10Foundation13CustomNSError", "underlyingError"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "Iterator"]
@@ -235,6 +245,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "handle"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "isSuccess"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
 - !private ["Ps23CustomStringConvertible", "oauthToken"]
 - !private ["Ps23CustomStringConvertible", "oauthTokenSecret"]
 - !private ["Ps23CustomStringConvertible", "post"]
@@ -248,6 +259,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "success"]
 - !private ["Ps23CustomStringConvertible", "synchronize"]
 - !private ["Ps23CustomStringConvertible", "unarchiveObject"]
+- !private ["Ps23CustomStringConvertible", "underlyingError"]
 - !private ["Ps23CustomStringConvertible", "validate"]
 - !private ["Ps23CustomStringConvertible", "value"]
 - !private ["V10Foundation4Data", "deinit"]
@@ -270,6 +282,7 @@ depends-member:
 - !private ["Ps9Equatable", "get"]
 - !private ["Ps9Equatable", "handle"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonObject"]
 - !private ["Ps9Equatable", "oauthToken"]
 - !private ["Ps9Equatable", "oauthTokenSecret"]
 - !private ["Ps9Equatable", "post"]
@@ -285,6 +298,7 @@ depends-member:
 - !private ["Ps5Error", "deinit"]
 - !private ["Ps5Error", "init"]
 - !private ["Ps5Error", "parsing"]
+- !private ["Ps5Error", "underlyingError"]
 - ["Ps5Error", ""]
 - !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
 - !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
@@ -310,6 +324,7 @@ depends-member:
 - !private ["Ps8Hashable", "get"]
 - !private ["Ps8Hashable", "handle"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonObject"]
 - !private ["Ps8Hashable", "oauthToken"]
 - !private ["Ps8Hashable", "oauthTokenSecret"]
 - !private ["Ps8Hashable", "post"]
@@ -378,6 +393,7 @@ depends-member:
 - !private ["CSo8NSObject", "default"]
 - !private ["CSo8NSObject", "handle"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonObject"]
 - !private ["CSo8NSObject", "oauthToken"]
 - !private ["CSo8NSObject", "oauthTokenSecret"]
 - !private ["CSo8NSObject", "post"]
@@ -394,6 +410,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "default"]
 - !private ["PSo16NSObjectProtocol", "handle"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
 - !private ["PSo16NSObjectProtocol", "oauthToken"]
 - !private ["PSo16NSObjectProtocol", "oauthTokenSecret"]
 - !private ["PSo16NSObjectProtocol", "post"]
@@ -421,16 +438,20 @@ depends-member:
 - !private ["C10OAuthSwift10OAuthSwift", "handle"]
 - !private ["C10OAuthSwift10OAuthSwift", "requestAdapter"]
 - !private ["C10OAuthSwift16OAuthSwiftClient", "credential"]
+- !private ["C10OAuthSwift16OAuthSwiftClient", "post"]
 - !private ["C10OAuthSwift20OAuthSwiftCredential", "deinit"]
 - !private ["C10OAuthSwift20OAuthSwiftCredential", "oauthToken"]
 - !private ["C10OAuthSwift20OAuthSwiftCredential", "oauthTokenSecret"]
 - !private ["O10OAuthSwift15OAuthSwiftError", "deinit"]
+- !private ["O10OAuthSwift15OAuthSwiftError", "underlyingError"]
 - !private ["C19OAuthSwiftAlamofire24OAuthSwiftRequestAdapter", "deinit"]
 - !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "authorize"]
 - !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "client"]
 - !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "handle"]
 - !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "init"]
 - !private ["P10OAuthSwift23OAuthSwiftRequestHandle", "requestAdapter"]
+- !private ["C10OAuthSwift18OAuthSwiftResponse", "deinit"]
+- !private ["C10OAuthSwift18OAuthSwiftResponse", "jsonObject"]
 - ["Sq", "deinit"]
 - !private ["P9Alamofire17ParameterEncoding", "queryString"]
 - !private ["Ps22RandomAccessCollection", "Iterator"]
@@ -476,7 +497,9 @@ depends-member:
 - !private ["C9Alamofire14SessionManager", "NotificationCenter"]
 - ["C9Alamofire14SessionManager", "OAuth1Swift"]
 - !private ["C9Alamofire14SessionManager", "OAuthSwiftCredential"]
-- !private ["C9Alamofire14SessionManager", "String"]
+- !private ["C9Alamofire14SessionManager", "OAuthSwiftError"]
+- !private ["C9Alamofire14SessionManager", "OAuthSwiftResponse"]
+- ["C9Alamofire14SessionManager", "String"]
 - ["C9Alamofire14SessionManager", "Tweet"]
 - ["C9Alamofire14SessionManager", "URL"]
 - !private ["C9Alamofire14SessionManager", "URLEncoding"]
@@ -487,6 +510,7 @@ depends-member:
 - ["C9Alamofire14SessionManager", "authorizeURL"]
 - ["C9Alamofire14SessionManager", "callbackURLString"]
 - ["C9Alamofire14SessionManager", "clearCredentials"]
+- ["C9Alamofire14SessionManager", "composeTweet"]
 - ["C9Alamofire14SessionManager", "consumerKey"]
 - ["C9Alamofire14SessionManager", "consumerSecret"]
 - ["C9Alamofire14SessionManager", "deinit"]
@@ -559,6 +583,7 @@ depends-member:
 - !private ["Ps9_Hashable", "get"]
 - !private ["Ps9_Hashable", "handle"]
 - ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonObject"]
 - !private ["Ps9_Hashable", "oauthToken"]
 - !private ["Ps9_Hashable", "oauthTokenSecret"]
 - !private ["Ps9_Hashable", "post"]
@@ -587,6 +612,7 @@ depends-nominal:
 - !private "Ps10Collection"
 - "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
+- !private "P10Foundation13CustomNSError"
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
@@ -645,6 +671,7 @@ depends-nominal:
 - !private "O10OAuthSwift15OAuthSwiftError"
 - !private "C19OAuthSwiftAlamofire24OAuthSwiftRequestAdapter"
 - !private "P10OAuthSwift23OAuthSwiftRequestHandle"
+- !private "C10OAuthSwift18OAuthSwiftResponse"
 - "Sq"
 - !private "P9Alamofire17ParameterEncoding"
 - !private "Ps22RandomAccessCollection"
@@ -690,12 +717,12 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
@@ -714,4 +741,4 @@ depends-external:
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
-interface-hash: "27702d975dee15e79b4c0cd944493a92"
+interface-hash: "c9acc764a13de91a849bf3748f481b6f"

@@ -8,15 +8,17 @@
 
 import UIKit
 
-class ComposeViewController: UIViewController {
-
+class ComposeViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var tweetTextView: UITextView!
     
-    
+     var charCount = 0;
+    @IBOutlet weak var characterCountLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         tweetTextView.layer.cornerRadius = 8
         tweetTextView.clipsToBounds = true
+        tweetTextView.delegate = self
+        
         
     }
 
@@ -24,6 +26,14 @@ class ComposeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        return charCount < 140 || text == ""
+    }
+    func textViewDidChange(_ textView: UITextView) {
+        charCount = tweetTextView.text.characters.count
+        characterCountLabel.text = "\(charCount)"
+    }
+    
     @IBAction func backButtonAction(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "TimelineViewController") as! TimelineViewController

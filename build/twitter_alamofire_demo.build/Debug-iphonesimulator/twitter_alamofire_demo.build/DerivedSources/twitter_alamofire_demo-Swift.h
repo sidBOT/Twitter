@@ -138,14 +138,19 @@ SWIFT_CLASS("_TtC22twitter_alamofire_demo11AppDelegate")
 @end
 
 @class UITextView;
+@class UILabel;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC22twitter_alamofire_demo21ComposeViewController")
-@interface ComposeViewController : UIViewController
+@interface ComposeViewController : UIViewController <UIScrollViewDelegate, UITextViewDelegate>
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified tweetTextView;
+@property (nonatomic) NSInteger charCount;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified characterCountLabel;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (BOOL)textView:(UITextView * _Nonnull)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString * _Nonnull)text;
+- (void)textViewDidChange:(UITextView * _Nonnull)textView;
 - (IBAction)backButtonAction:(id _Nonnull)sender;
 - (IBAction)postButtonAction:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -184,7 +189,6 @@ SWIFT_CLASS("_TtC22twitter_alamofire_demo22TimelineViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
 @class UIButton;
 
 SWIFT_CLASS("_TtC22twitter_alamofire_demo9TweetCell")
