@@ -137,8 +137,21 @@ SWIFT_CLASS("_TtC22twitter_alamofire_demo11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextView;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC22twitter_alamofire_demo21ComposeViewController")
+@interface ComposeViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified tweetTextView;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)backButtonAction:(id _Nonnull)sender;
+- (IBAction)postButtonAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC22twitter_alamofire_demo19LoginViewController")
 @interface LoginViewController : UIViewController

@@ -56,6 +56,48 @@
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
+        <!--Compose View Controller-->
+        <scene sceneID="Dlj-2a-AHo">
+            <objects>
+                <viewController id="yxI-It-O3E" customClass="ComposeViewController" customModule="twitter_alamofire_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i0F-6l-KgM"/>
+                        <viewControllerLayoutGuide type="bottom" id="15f-QL-8KJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jc1-61-OV3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97i-rR-dTr">
+                                <rect key="frame" x="16" y="87" width="343" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94453541911798078" green="0.94453541911798078" blue="0.94453541911798078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dxv-U1-wSp">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="BzU-VH-muc">
+                            <connections>
+                                <action selector="backButtonAction:" destination="yxI-It-O3E" id="2Nl-B2-O7Q"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Post" id="Erw-24-KXd">
+                            <connections>
+                                <action selector="postButtonAction:" destination="yxI-It-O3E" id="l25-xo-9Xa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tweetTextView" destination="97i-rR-dTr" id="8yB-JH-Tht"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zz2-Ct-iK3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2615.1999999999998" y="-632.83358320839591"/>
+        </scene>
         <!--Home Timeline-->
         <scene sceneID="5vf-Kh-7ye">
             <objects>
@@ -165,6 +207,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home Timeline" id="9Zi-uW-GTS">
+                        <barButtonItem key="leftBarButtonItem" title="tweet" id="6g1-gF-doN">
+                            <connections>
+                                <segue destination="dzk-F5-taN" kind="presentation" identifier="composeSegue" id="SQZ-qb-YK2"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Logout" id="hz2-ji-ft0">
                             <connections>
                                 <action selector="didTapLogout:" destination="5YO-Vh-39k" id="fM7-h5-mq1"/>
@@ -268,6 +315,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HHk-jg-Lk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860" y="36.431784107946029"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vki-WP-hRx">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ws-KY-7ON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dzk-F5-taN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iZA-eS-zDN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yxI-It-O3E" kind="relationship" relationship="rootViewController" id="fyK-4a-K7s"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1676" y="-632.83358320839591"/>
         </scene>
     </scenes>
     <resources>
