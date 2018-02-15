@@ -1,0 +1,346 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfileViewController"
+provides-nominal:
+- "C22twitter_alamofire_demo21ProfileViewController"
+provides-member:
+- ["C22twitter_alamofire_demo21ProfileViewController", ""]
+provides-dynamic-lookup:
+- "followersLabel"
+- "didReceiveMemoryWarning"
+- "profileImage"
+- "followingLabel"
+- "tweetsLabel"
+- "viewDidLoad"
+depends-top-level:
+- "User"
+- !private "BooleanLiteralType"
+- "UIViewController"
+- "AssignmentPrecedence"
+- "UILabel"
+- "ProfileViewController"
+- "UIImageView"
+depends-member:
+- !private ["Ps9AnyObject", "clipsToBounds"]
+- !private ["Ps9AnyObject", "cornerRadius"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "followersLabel"]
+- ["Ps9AnyObject", "followingLabel"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- ["Ps9AnyObject", "profileImage"]
+- ["Ps9AnyObject", "tweetsLabel"]
+- ["Ps9AnyObject", "user"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- ["CSo7CALayer", "deinit"]
+- !private ["PSo15CALayerDelegate", "clipsToBounds"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "clipsToBounds"]
+- !private ["Ps7CVarArg", "cornerRadius"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "followersLabel"]
+- ["Ps7CVarArg", "followingLabel"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layer"]
+- ["Ps7CVarArg", "profileImage"]
+- ["Ps7CVarArg", "tweetsLabel"]
+- ["Ps7CVarArg", "user"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "clipsToBounds"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "followersLabel"]
+- ["Ps28CustomDebugStringConvertible", "followingLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- ["Ps28CustomDebugStringConvertible", "profileImage"]
+- ["Ps28CustomDebugStringConvertible", "tweetsLabel"]
+- ["Ps28CustomDebugStringConvertible", "user"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "clipsToBounds"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "followersLabel"]
+- ["Ps23CustomStringConvertible", "followingLabel"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- ["Ps23CustomStringConvertible", "profileImage"]
+- ["Ps23CustomStringConvertible", "tweetsLabel"]
+- ["Ps23CustomStringConvertible", "user"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "clipsToBounds"]
+- !private ["Ps9Equatable", "cornerRadius"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "followersLabel"]
+- ["Ps9Equatable", "followingLabel"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- ["Ps9Equatable", "profileImage"]
+- ["Ps9Equatable", "tweetsLabel"]
+- ["Ps9Equatable", "user"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "clipsToBounds"]
+- !private ["Ps8Hashable", "cornerRadius"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "followersLabel"]
+- ["Ps8Hashable", "followingLabel"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- ["Ps8Hashable", "profileImage"]
+- ["Ps8Hashable", "tweetsLabel"]
+- ["Ps8Hashable", "user"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "clipsToBounds"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "followersLabel"]
+- ["PSo8NSCoding", "followingLabel"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "profileImage"]
+- ["PSo8NSCoding", "tweetsLabel"]
+- ["PSo8NSCoding", "user"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "followersLabel"]
+- ["PSo26NSExtensionRequestHandling", "followingLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "profileImage"]
+- ["PSo26NSExtensionRequestHandling", "tweetsLabel"]
+- ["PSo26NSExtensionRequestHandling", "user"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "User"]
+- !private ["CSo8NSObject", "clipsToBounds"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "followersLabel"]
+- ["CSo8NSObject", "followingLabel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "profileImage"]
+- ["CSo8NSObject", "tweetsLabel"]
+- ["CSo8NSObject", "user"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "clipsToBounds"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "followersLabel"]
+- ["PSo16NSObjectProtocol", "followingLabel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "profileImage"]
+- ["PSo16NSObjectProtocol", "tweetsLabel"]
+- ["PSo16NSObjectProtocol", "user"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "UIImageView"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "UILabel"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "User"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "deinit"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "didReceiveMemoryWarning"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "followersLabel"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "followingLabel"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "init"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "profileImage"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "tweetsLabel"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "user"]
+- ["C22twitter_alamofire_demo21ProfileViewController", "viewDidLoad"]
+- !private ["PSo29UIAccessibilityIdentification", "clipsToBounds"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo12UIAppearance", "clipsToBounds"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo21UIAppearanceContainer", "clipsToBounds"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "followersLabel"]
+- ["PSo21UIAppearanceContainer", "followingLabel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "profileImage"]
+- ["PSo21UIAppearanceContainer", "tweetsLabel"]
+- ["PSo21UIAppearanceContainer", "user"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "followersLabel"]
+- ["PSo18UIContentContainer", "followingLabel"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "profileImage"]
+- ["PSo18UIContentContainer", "tweetsLabel"]
+- ["PSo18UIContentContainer", "user"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "clipsToBounds"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo13UIDynamicItem", "clipsToBounds"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo18UIFocusEnvironment", "clipsToBounds"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "followersLabel"]
+- ["PSo18UIFocusEnvironment", "followingLabel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "profileImage"]
+- ["PSo18UIFocusEnvironment", "tweetsLabel"]
+- ["PSo18UIFocusEnvironment", "user"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "clipsToBounds"]
+- !private ["PSo11UIFocusItem", "layer"]
+- !private ["CSo11UIImageView", "clipsToBounds"]
+- !private ["CSo11UIImageView", "layer"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "User"]
+- !private ["CSo11UIResponder", "clipsToBounds"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "followersLabel"]
+- ["CSo11UIResponder", "followingLabel"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "profileImage"]
+- ["CSo11UIResponder", "tweetsLabel"]
+- ["CSo11UIResponder", "user"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "clipsToBounds"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "followersLabel"]
+- ["PSo30UIResponderStandardEditActions", "followingLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- ["PSo30UIResponderStandardEditActions", "profileImage"]
+- ["PSo30UIResponderStandardEditActions", "tweetsLabel"]
+- ["PSo30UIResponderStandardEditActions", "user"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "followersLabel"]
+- ["PSo16UIStateRestoring", "followingLabel"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "profileImage"]
+- ["PSo16UIStateRestoring", "tweetsLabel"]
+- ["PSo16UIStateRestoring", "user"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "clipsToBounds"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "followersLabel"]
+- ["PSo18UITraitEnvironment", "followingLabel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "profileImage"]
+- ["PSo18UITraitEnvironment", "tweetsLabel"]
+- ["PSo18UITraitEnvironment", "user"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "clipsToBounds"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "User"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "followersLabel"]
+- ["CSo16UIViewController", "followingLabel"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "profileImage"]
+- ["CSo16UIViewController", "tweetsLabel"]
+- ["CSo16UIViewController", "user"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "clipsToBounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- !private ["Ps9_Hashable", "clipsToBounds"]
+- !private ["Ps9_Hashable", "cornerRadius"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "followersLabel"]
+- ["Ps9_Hashable", "followingLabel"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layer"]
+- ["Ps9_Hashable", "profileImage"]
+- ["Ps9_Hashable", "tweetsLabel"]
+- ["Ps9_Hashable", "user"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "CSo7CALayer"
+- !private "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "C22twitter_alamofire_demo21ProfileViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Modules/OAuthSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Headers/OAuthSwift-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Headers/OAuthSwift-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwift/OAuthSwift.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Modules/OAuthSwiftAlamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers/OAuthSwiftAlamofire-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Headers/OAuthSwiftAlamofire-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework/Modules/module.modulemap"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/x86_64.swiftmodule"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+interface-hash: "80d0ed994e2d699a5bc83bfd92347363"

@@ -19,10 +19,10 @@ The following **required** functionality is completed:
 
 The following **stretch** features are implemented:
 
-- [ ] The current signed in user will be persisted across restarts
+- [x] The current signed in user will be persisted across restarts
 - [ ] Each tweet should display the relative timestamp for each tweet "8m", "7h"
 - [x] User should be able to unretweet and unfavorite and should decrement the retweet and favorite count.
-- [ ] Links in tweets are clickable.
+- [x] Links in tweets are clickable.
 - [ ] User can load more tweets once they reach the bottom of the feed using infinite loading similar to the actual Twitter client.
 
 The following **additional** features are implemented:

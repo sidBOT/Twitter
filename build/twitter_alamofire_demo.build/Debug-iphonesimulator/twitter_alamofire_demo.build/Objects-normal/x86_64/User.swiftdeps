@@ -7,14 +7,19 @@ provides-member:
 - ["C22twitter_alamofire_demo4User", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CastingPrecedence"
-- "AssignmentPrecedence"
-- "String"
-- "User"
 - !private "StringLiteralType"
+- "User"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "URL"
+- "String"
 depends-member:
+- !private ["Ps9AnyObject", "URL"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "profile"]
+- !private ["Ps9AnyObject", "profileImage"]
+- !private ["Ps9AnyObject", "screenName"]
 - ["Ps9AnyObject", ""]
 - !private ["Ps7CVarArg", "Index"]
 - !private ["Ps7CVarArg", "SubSequence"]
@@ -74,6 +79,7 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - ["Sq", "deinit"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
 - !private ["Ps8Sequence", "Element"]
 - !private ["Ps8Sequence", "Index"]
 - !private ["Ps8Sequence", "Iterator"]
@@ -88,15 +94,21 @@ depends-member:
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
+- !private ["V10Foundation3URL", "init"]
 - !private ["P9Alamofire14URLConvertible", "init"]
 - ["C22twitter_alamofire_demo4User", "String"]
+- ["C22twitter_alamofire_demo4User", "URL"]
 - ["C22twitter_alamofire_demo4User", "deinit"]
 - ["C22twitter_alamofire_demo4User", "init"]
 - ["C22twitter_alamofire_demo4User", "name"]
+- ["C22twitter_alamofire_demo4User", "profile"]
+- ["C22twitter_alamofire_demo4User", "profileImage"]
+- ["C22twitter_alamofire_demo4User", "screenName"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "Index"]
@@ -134,17 +146,20 @@ depends-nominal:
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
 - "Sq"
+- !private "P10Foundation20ReferenceConvertible"
 - !private "Ps8Sequence"
 - !private "Vs5Slice"
 - "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
+- !private "V10Foundation3URL"
 - !private "P9Alamofire14URLConvertible"
 - "C22twitter_alamofire_demo4User"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
 - !private "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
@@ -176,4 +191,4 @@ depends-external:
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
 - "/Users/SiD/Desktop/CS 490/Twitter/build/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
-interface-hash: "264e70d07689f425703e3e29534d3679"
+interface-hash: "b19377601e9cf41d8dbf41329cd72ad7"

@@ -168,6 +168,20 @@ SWIFT_CLASS("_TtC22twitter_alamofire_demo19LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+
+SWIFT_CLASS("_TtC22twitter_alamofire_demo21ProfileViewController")
+@interface ProfileViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified followingLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified followersLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tweetsLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImage;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIRefreshControl;
 @class UITableView;
 @class UITableViewCell;

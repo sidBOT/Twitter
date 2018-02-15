@@ -1,9 +1,10 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "d57529e52451a18cdf31dac9ce8ef7a7"
-build_time: [571886451, 617536000]
+build_time: [571895402, 976994000]
 inputs:
   "/Users/SiD/Desktop/CS 490/Twitter/twitter_alamofire_demo/ComposeViewController.swift": [571886451, 0]
-  "/Users/SiD/Desktop/CS 490/Twitter/twitter_alamofire_demo/User.swift": [566707538, 0]
+  "/Users/SiD/Desktop/CS 490/Twitter/twitter_alamofire_demo/User.swift": [571893837, 0]
+  "/Users/SiD/Desktop/CS 490/Twitter/twitter_alamofire_demo/ProfileViewController.swift": [571895371, 0]
   "/Users/SiD/Desktop/CS 490/Twitter/twitter_alamofire_demo/TwitterDetailsViewController.swift": [571795574, 0]
   "/Users/SiD/Desktop/CS 490/Twitter/twitter_alamofire_demo/TweetCell.swift": [571795721, 0]
   "/Users/SiD/Desktop/CS 490/Twitter/twitter_alamofire_demo/Tweet.swift": [571613118, 0]
